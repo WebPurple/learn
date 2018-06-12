@@ -3,6 +3,7 @@ node_js:
   - "lts/*"
 script:
   - npm run build
+  - rm _book/TAGS.md
 deploy:
   provider: pages
   skip-cleanup: true
