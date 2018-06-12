@@ -1,0 +1,26 @@
+{
+  "name": "learn-webpurple",
+  "version": "1.0.0",
+  "description": "Learn JS with WebPurple",
+  "scripts": {
+    "gitbook:fetch": "gitbook fetch latest",
+    "gitbook:install": "gitbook install",
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "postinstall": "npm run gitbook:fetch && npm run gitbook:install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webpurple/learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webpurple/learn/issues"
+  },
+  "homepage": "https://github.com/webpurple/learn#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-exercises": "git+https://github.com/ifedyukin/plugin-exercises.git"
+  }
+}
