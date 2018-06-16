@@ -13,8 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/webpurple/learn.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Igor Fedyukin <Igor_Fedyukin@epam.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/webpurple/learn/issues"
   },

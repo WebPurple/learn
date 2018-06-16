@@ -1,6 +1,9 @@
 # WebPurple Learn Book
-[![GitBook](https://img.shields.io/badge/powered%20by-GitBook-blue.svg)](https://github.com/GitbookIO/gitbook)
+[![WebSite](https://img.shields.io/badge/website-learn-542982.svg)](https://webpurple.github.io/learn/)
 [![Build Status](https://travis-ci.org/WebPurple/learn.svg?branch=master)](https://travis-ci.org/WebPurple/learn)
+[![GitBook](https://img.shields.io/badge/powered%20by-GitBook-blue.svg)](https://github.com/GitbookIO/gitbook)
+[![License MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/WebPurple/learn/blob/master/LICENSE)
+
 
 ## Локальная работа
 ```sh
@@ -26,7 +29,6 @@ npm start
     * [Что такое JS](lecture1/what-is-js.md)
     * [История JS](lecture1/js-history.md)
 ```
-Строка `* [Tags](tags.md)` должна находиться **после** описания всей остальной структуры.
 
 ## Создание записей
 ### Markdown
@@ -65,7 +67,7 @@ npm start
 ```markdown
 tags: tag1, tag2, tag3
 ```
-> Генерация тэгов работает нестабильно в режиме "разработки".
+Для увеличения производительности генерация страницы тэгов происходит **только при первом** запуске GitBook, для обновления этой страницы в режиме "разработки" необходимо перезапустить `npm start`.
 
 ### Exercises
 Для описания практических заданий используется плагин "[Exercises](https://github.com/GitbookIO/plugin-exercises)".
