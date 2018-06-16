@@ -6,12 +6,12 @@
     "root": "./book",
     "plugins": [
         "exercises@git+https://github.com/ifedyukin/plugin-exercises.git",
-        "toggle-chapters",
+        "tags@git+https://github.com/ifedyukin/gitbook-plugin-tags.git",
+        "toggle-chapters@git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters",
         "include",
         "multipart",
         "anchors",
         "edit-link",
-        "tags",
         "-sharing",
         "-fontsettings"
     ],
