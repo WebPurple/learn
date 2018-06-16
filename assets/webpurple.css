@@ -98,13 +98,14 @@ li.chapter {
   padding-left: 60px !important;
 }
 
-li.chapter[data-path$="/"]::before {
+.chapter-top::before {
   background-color: inherit;
   content: "§";
   height: 36px;
-  left: 10px;
   line-height: 32px;
+  margin-left: -20px;
   position: absolute;
+  top: 0;
   z-index: 1;
 }
 
@@ -120,7 +121,7 @@ li.chapter[data-path$="/"]::before {
   left: 40px;
 }
 
-li.chapter:not([data-path$="/"]) > a,
+li.chapter > a:not(.chapter-top),
 .custom-link,
 .gitbook-link {
   padding-left: 10px !important;

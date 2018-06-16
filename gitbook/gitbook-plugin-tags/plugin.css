@@ -1,19 +1,19 @@
 .tags {
-  color: #0e83cd;
+  color: #542982;
   display:        inline-block;
 }
 
 .tags a {
     font-size:      1.6rem;
     border-radius:  3px;
-    border:         2px solid #25a1f0;
+    border:         2px solid #542982;
     cursor:         pointer;
     padding:        2px 8px;
     margin:         0px 2px;
 }
 
 .tags a:hover{
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
-  background-color: #25a1f0;
+  background-color: #542982;
 }
