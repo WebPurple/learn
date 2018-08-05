@@ -10,10 +10,12 @@
         "toggle-chapters@git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters",
         "include",
         "multipart",
+        "advanced-emoji",
         "anchors",
         "edit-link",
         "-sharing",
-        "-fontsettings"
+        "-fontsettings",
+        "-lunr"
     ],
     "styles": {
         "website": "assets/webpurple.css"

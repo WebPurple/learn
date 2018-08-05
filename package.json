@@ -20,8 +20,12 @@
   },
   "homepage": "https://github.com/webpurple/learn#readme",
   "dependencies": {
-    "gitbook-cli": "^2.3.2",
+    "gitbook-cli": "2.3.2",
+    "gitbook-plugin-advanced-emoji": "0.2.2",
+    "gitbook-plugin-editlink": "1.0.2",
     "gitbook-plugin-exercises": "git+https://github.com/ifedyukin/plugin-exercises.git",
+    "gitbook-plugin-livereload": "0.0.1",
+    "gitbook-plugin-lunr": "1.2.0",
     "gitbook-plugin-tags": "git+https://github.com/ifedyukin/gitbook-plugin-tags.git",
     "gitbook-plugin-toggle-chapters": "git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters.git"
   }
