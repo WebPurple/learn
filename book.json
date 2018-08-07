@@ -12,10 +12,10 @@
         "multipart",
         "advanced-emoji",
         "anchors",
+        "lunr",
         "edit-link",
         "-sharing",
-        "-fontsettings",
-        "-lunr"
+        "-fontsettings"
     ],
     "styles": {
         "website": "assets/webpurple.css"
