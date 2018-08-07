@@ -10,7 +10,9 @@
         "toggle-chapters@git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters",
         "include",
         "multipart",
+        "advanced-emoji",
         "anchors",
+        "lunr",
         "edit-link",
         "-sharing",
         "-fontsettings"
