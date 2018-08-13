@@ -2,7 +2,11 @@
 
 -   [Главная](README.md)
 -   [Лекция 1](lecture1/README.md)
-    -   [Что такое JS](lecture1/what-is-js.md)
+    -   [Основы JS](lecture1/js-basics.md)
+    -   [Практика](lecture1/js-basics-tasks.md)
+-   [Лекция 2](lecture1/README.md)
+    -   [Функции в JS](lecture2/js-function.md)
+    -   [Практика](lecture2/js-function-tasks.md)
 -   [История JS](lecture1/js-history.md)
 -   [Инструменты](instruments/README.md)
     -   [Nodejs](instruments/nodejs.md)
