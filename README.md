@@ -4,7 +4,6 @@
 [![GitBook](https://img.shields.io/badge/powered%20by-GitBook-blue.svg)](https://github.com/GitbookIO/gitbook)
 [![License MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/WebPurple/learn/blob/master/LICENSE)
 
-
 ## Локальная работа
 ```sh
 git clone https://github.com/WebPurple/learn.git
@@ -12,8 +11,11 @@ cd learn
 npm install
 npm start
 ```
-#### [Решение проблемы запуска Gitbook на Win](https://github.com/GitbookIO/gitbook/issues/1309#issuecomment-353998108)
+### Troubleshooting
+* [Решение проблемы запуска Gitbook на Windows](https://github.com/GitbookIO/gitbook/issues/1309#issuecomment-353998108);
+* [Решение проблемы установки зависимостей на Windows](https://github.com/npm/npm/issues/12138).    
 
+Также можно в файле `book.json` заменить значение ключа `plugins` на `[]`.
 
 ## Структура
 Непосредственно файлы со справочным материалом должны размещаться в директории `book`.    
