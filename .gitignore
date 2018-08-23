@@ -2,6 +2,6 @@ node_modules
 .grunt
 /_book/
 .DS_Store
-package-lock.json
 Thumbs.db
 *.log
+/etc/
