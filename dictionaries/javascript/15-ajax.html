@@ -1,0 +1,1256 @@
+
+<!DOCTYPE HTML>
+<html lang="ru" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>AJAX · WebPurple Learn Book</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-exercises/exercises.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tags/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../assets/webpurple.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="16-math.html" />
+    
+    
+    <link rel="prev" href="14-scope.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Поиск..." />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Главная
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../externals/">
+            
+                <a href="../../externals/">
+            
+                    
+                    Внешние курсы
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../externals/lecture1/">
+            
+                <a href="../../externals/lecture1/">
+            
+                    
+                    Лекция 1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="../../externals/lecture1/js-history.html">
+            
+                <a href="../../externals/lecture1/js-history.html">
+            
+                    
+                    История JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="../../externals/lecture1/js-basics-part1.html">
+            
+                <a href="../../externals/lecture1/js-basics-part1.html">
+            
+                    
+                    Основы JavaScript. Часть 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="../../externals/lecture1/js-basics-part1-tasks.html">
+            
+                <a href="../../externals/lecture1/js-basics-part1-tasks.html">
+            
+                    
+                    Практика
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../externals/lecture2/">
+            
+                <a href="../../externals/lecture2/">
+            
+                    
+                    Лекция 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../../externals/lecture2/js-basics-part2.html">
+            
+                <a href="../../externals/lecture2/js-basics-part2.html">
+            
+                    
+                    Основы JavaScript. Часть 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../../externals/lecture2/js-basics-part2-tasks.html">
+            
+                <a href="../../externals/lecture2/js-basics-part2-tasks.html">
+            
+                    
+                    Практика
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../externals/lecture3/">
+            
+                <a href="../../externals/lecture3/">
+            
+                    
+                    Лекция 3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../../externals/lecture3/js-object-part1.html">
+            
+                <a href="../../externals/lecture3/js-object-part1.html">
+            
+                    
+                    Объекты в JavaScript. Часть 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../../externals/lecture3/js-object-part1-tasks.html">
+            
+                <a href="../../externals/lecture3/js-object-part1-tasks.html">
+            
+                    
+                    Практика
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../externals/lecture4/">
+            
+                <a href="../../externals/lecture4/">
+            
+                    
+                    Лекция 4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.1" data-path="../../externals/lecture4/js-object-part2.html">
+            
+                <a href="../../externals/lecture4/js-object-part2.html">
+            
+                    
+                    Объекты в JavaScript. Часть 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2" data-path="../../externals/lecture4/js-object-part2-tasks.html">
+            
+                <a href="../../externals/lecture4/js-object-part2-tasks.html">
+            
+                    
+                    Практика
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../externals/lecture5/">
+            
+                <a href="../../externals/lecture5/">
+            
+                    
+                    Лекция 5
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="../../externals/lecture5/js-function.html">
+            
+                <a href="../../externals/lecture5/js-function.html">
+            
+                    
+                    Функции в JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.2" data-path="../../externals/lecture5/js-function-tasks.html">
+            
+                <a href="../../externals/lecture5/js-function-tasks.html">
+            
+                    
+                    Практика
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../../externals/lecture9/">
+            
+                <a href="../../externals/lecture9/">
+            
+                    
+                    Лекция 9
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.1" data-path="../../externals/lecture9/html-basics.html">
+            
+                <a href="../../externals/lecture9/html-basics.html">
+            
+                    
+                    HTML Основы
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.2" data-path="../../externals/lecture9/css-basics.html">
+            
+                <a href="../../externals/lecture9/css-basics.html">
+            
+                    
+                    CSS Основы
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3" data-path="../../externals/lecture9/html-css-basics-tasks.html">
+            
+                <a href="../../externals/lecture9/html-css-basics-tasks.html">
+            
+                    
+                    Практика
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../../externals/lecture10/">
+            
+                <a href="../../externals/lecture10/">
+            
+                    
+                    Лекция 10
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.1" data-path="../../externals/lecture10/html-fundamentals.html">
+            
+                <a href="../../externals/lecture10/html-fundamentals.html">
+            
+                    
+                    HTML Основы 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2" data-path="../../externals/lecture10/css-fundamentals.html">
+            
+                <a href="../../externals/lecture10/css-fundamentals.html">
+            
+                    
+                    CSS Основы 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.3" data-path="../../externals/lecture10/html-css-fundamentals-tasks.html">
+            
+                <a href="../../externals/lecture10/html-css-fundamentals-tasks.html">
+            
+                    
+                    Практика
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../../externals/lecture11/">
+            
+                <a href="../../externals/lecture11/">
+            
+                    
+                    Лекция 11
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.8.1" data-path="../../externals/lecture11/html-advanced.html">
+            
+                <a href="../../externals/lecture11/html-advanced.html">
+            
+                    
+                    HTML Продвинутый уровень
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8.2" data-path="../../externals/lecture11/css-advanced.html">
+            
+                <a href="../../externals/lecture11/css-advanced.html">
+            
+                    
+                    CSS Продвинутый уровень
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8.3" data-path="../../externals/lecture11/html-css-advanced-tasks.html">
+            
+                <a href="../../externals/lecture11/html-css-advanced-tasks.html">
+            
+                    
+                    Практика
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../../externals/lecture14/">
+            
+                <a href="../../externals/lecture14/">
+            
+                    
+                    Лекция 14
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.9.1" data-path="../../externals/lecture14/js-context.html">
+            
+                <a href="../../externals/lecture14/js-context.html">
+            
+                    
+                    Контекст в JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9.2" data-path="../../externals/lecture14/js-context-tasks.html">
+            
+                <a href="../../externals/lecture14/js-context-tasks.html">
+            
+                    
+                    Практика
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../../externals/lecture15/">
+            
+                <a href="../../externals/lecture15/">
+            
+                    
+                    Лекция 15
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.10.1" data-path="../../externals/lecture15/js-oop.html">
+            
+                <a href="../../externals/lecture15/js-oop.html">
+            
+                    
+                    ООП в JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10.2" data-path="../../externals/lecture15/js-oop-tasks.html">
+            
+                <a href="../../externals/lecture15/js-oop-tasks.html">
+            
+                    
+                    Практика
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Справочники
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../instruments/">
+            
+                <a href="../instruments/">
+            
+                    
+                    Инструменты
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../instruments/nodejs.html">
+            
+                <a href="../instruments/nodejs.html">
+            
+                    
+                    Nodejs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../instruments/vscode/intro.html">
+            
+                <a href="../instruments/vscode/intro.html">
+            
+                    
+                    VS Code
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.2.1" data-path="../instruments/vscode/debug.html">
+            
+                <a href="../instruments/vscode/debug.html">
+            
+                    
+                    Debug
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="../instruments/eslint.html">
+            
+                <a href="../instruments/eslint.html">
+            
+                    
+                    ESLint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="../instruments/prettier.html">
+            
+                <a href="../instruments/prettier.html">
+            
+                    
+                    Prettier
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.5" data-path="../instruments/gulp.html">
+            
+                <a href="../instruments/gulp.html">
+            
+                    
+                    Gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.6" data-path="../instruments/webpack.html">
+            
+                <a href="../instruments/webpack.html">
+            
+                    
+                    Webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../css/">
+            
+                <a href="../css/">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../css/css_syntax/css_syntax.html">
+            
+                <a href="../css/css_syntax/css_syntax.html">
+            
+                    
+                    Способы добавления стилей на страницу, базовый синтаксис. Валидация
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../css/css_selectors/css_selectors.html">
+            
+                <a href="../css/css_selectors/css_selectors.html">
+            
+                    
+                    Селекторы, группировка
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../css/css_pseudoclasses/css_pseudoclasses.html">
+            
+                <a href="../css/css_pseudoclasses/css_pseudoclasses.html">
+            
+                    
+                    Псевдоклассы, псевдоэлементы
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.4" data-path="../css/css_text/css_text.html">
+            
+                <a href="../css/css_text/css_text.html">
+            
+                    
+                    Стили влияющие на текст
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.5" data-path="../css/css_cascading/css_cascading.html">
+            
+                <a href="../css/css_cascading/css_cascading.html">
+            
+                    
+                    Каскад, наследование
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.6" data-path="../css/css_position/css_position.html">
+            
+                <a href="../css/css_position/css_position.html">
+            
+                    
+                    Позиционирование
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.7" data-path="../css/css_flex/css_flex.html">
+            
+                <a href="../css/css_flex/css_flex.html">
+            
+                    
+                    Flex
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.8" data-path="../css/css_grid/css_grid.html">
+            
+                <a href="../css/css_grid/css_grid.html">
+            
+                    
+                    Grid
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Основы JS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="01-base-syntax.html">
+            
+                <a href="01-base-syntax.html">
+            
+                    
+                    Синтаксис
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="02-variable-declaration.html">
+            
+                <a href="02-variable-declaration.html">
+            
+                    
+                    Описание переменных
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="03-numbers.html">
+            
+                <a href="03-numbers.html">
+            
+                    
+                    Числа
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.4" data-path="04-strings.html">
+            
+                <a href="04-strings.html">
+            
+                    
+                    Строки
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.5" data-path="05-arrays-and-methods.html">
+            
+                <a href="05-arrays-and-methods.html">
+            
+                    
+                    Методы массивов
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.6" data-path="06-objects-and-properties.html">
+            
+                <a href="06-objects-and-properties.html">
+            
+                    
+                    Объекты и свойства
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.7" data-path="09-conditional-operators.html">
+            
+                <a href="09-conditional-operators.html">
+            
+                    
+                    Условные операторы
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.8" data-path="10-switch.html">
+            
+                <a href="10-switch.html">
+            
+                    
+                    Switch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.9" data-path="11-logical-operators.html">
+            
+                <a href="11-logical-operators.html">
+            
+                    
+                    Логические операторы
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.10" data-path="12-loops.html">
+            
+                <a href="12-loops.html">
+            
+                    
+                    Циклы
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.11" data-path="13-functions.html">
+            
+                <a href="13-functions.html">
+            
+                    
+                    Функции
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.12" data-path="14-scope.html">
+            
+                <a href="14-scope.html">
+            
+                    
+                    Область видимости
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.3.13" data-path="15-ajax.html">
+            
+                <a href="15-ajax.html">
+            
+                    
+                    AJAX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.14" data-path="16-math.html">
+            
+                <a href="16-math.html">
+            
+                    
+                    Модуль Math
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../tags.html">
+            
+                <a href="../../tags.html">
+            
+                    
+                    Тэги
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Создано на основе GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >AJAX</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="ajax"><a name="ajax" class="plugin-anchor" href="#ajax"><i class="fa fa-link" aria-hidden="true"></i></a>AJAX</h1>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title">Результаты поиска</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">По запросу "<span class='search-query'></span>" ничего не найдено</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="14-scope.html" class="navigation navigation-prev " aria-label="Previous page: Область видимости">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="16-math.html" class="navigation navigation-next " aria-label="Next page: Модуль Math">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"AJAX","level":"1.3.3.13","depth":3,"next":{"title":"Модуль Math","level":"1.3.3.14","depth":3,"path":"dictionaries/javascript/16-math.md","ref":"dictionaries/javascript/16-math.md","articles":[]},"previous":{"title":"Область видимости","level":"1.3.3.12","depth":3,"path":"dictionaries/javascript/14-scope.md","ref":"dictionaries/javascript/14-scope.md","articles":[]},"dir":"ltr"},"config":{"plugins":["exercises@git+https://github.com/ifedyukin/plugin-exercises.git","tags@git+https://github.com/ifedyukin/gitbook-plugin-tags.git","toggle-chapters@git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters","include","multipart","advanced-emoji","anchors","lunr","edit-link","-sharing","-fontsettings"],"root":"./book","styles":{"website":"assets/webpurple.css"},"pluginsConfig":{"include":{},"search":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"highlight":{},"tags":{"placement":"bottom"},"exercises":{},"advanced-emoji":{"embedEmojis":false},"edit-link":{"label":"","base":"https://github.com/webpurple/learn/edit/master/book/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"WebPurple Learn Book","language":"ru","links":{"sidebar":{}},"gitbook":">=3.x.x","description":"Learn JS with WebPurple"},"file":{"path":"dictionaries/javascript/15-ajax.md","mtime":"2018-08-23T20:27:17.591Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-08-23T20:28:56.975Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook-plugin-exercises/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+    
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-exercises/ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-exercises/ace/theme-tomorrow.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-exercises/ace/mode-javascript.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-exercises/exercises.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+
+
+    </body>
+</html>
+
