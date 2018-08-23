@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Контекст в JS · WebPurple Learn Book</title>
+        <title>Практика · WebPurple Learn Book</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -69,10 +69,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="js-context-tasks.html" />
+    <link rel="next" href="../lecture10/" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="css-basics.html" />
     
 
     </head>
@@ -296,9 +296,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="../lecture9/">
+        <li class="chapter " data-level="1.6" data-path="./">
             
-                <a href="../lecture9/">
+                <a href="./">
             
                     
                     Лекция 9
@@ -310,9 +310,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="../lecture9/html-basics.html">
+        <li class="chapter " data-level="1.6.1" data-path="html-basics.html">
             
-                <a href="../lecture9/html-basics.html">
+                <a href="html-basics.html">
             
                     
                     HTML Основы
@@ -323,9 +323,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.2" data-path="../lecture9/css-basics.html">
+        <li class="chapter " data-level="1.6.2" data-path="css-basics.html">
             
-                <a href="../lecture9/css-basics.html">
+                <a href="css-basics.html">
             
                     
                     CSS Основы
@@ -336,9 +336,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.3" data-path="../lecture9/html-css-basics-tasks.html">
+        <li class="chapter active" data-level="1.6.3" data-path="html-css-basics-tasks.html">
             
-                <a href="../lecture9/html-css-basics-tasks.html">
+                <a href="html-css-basics-tasks.html">
             
                     
                     Практика
@@ -470,9 +470,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="./">
+        <li class="chapter " data-level="1.9" data-path="../lecture14/">
             
-                <a href="./">
+                <a href="../lecture14/">
             
                     
                     Лекция 14
@@ -484,9 +484,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.9.1" data-path="js-context.html">
+        <li class="chapter " data-level="1.9.1" data-path="../lecture14/js-context.html">
             
-                <a href="js-context.html">
+                <a href="../lecture14/js-context.html">
             
                     
                     Контекст в JS
@@ -497,9 +497,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.2" data-path="js-context-tasks.html">
+        <li class="chapter " data-level="1.9.2" data-path="../lecture14/js-context-tasks.html">
             
-                <a href="js-context-tasks.html">
+                <a href="../lecture14/js-context-tasks.html">
             
                     
                     Практика
@@ -732,7 +732,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Контекст в JS</a>
+        <a href=".." >Практика</a>
     </h1>
 </div>
 
@@ -747,87 +747,30 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x43C;&#x435;&#x442;&#x43E;&#x434;&#x44B;-&#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430;"><a name="&#x43C;&#x435;&#x442;&#x43E;&#x434;&#x44B;-&#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430;" class="plugin-anchor" href="#&#x43C;&#x435;&#x442;&#x43E;&#x434;&#x44B;-&#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41C;&#x435;&#x442;&#x43E;&#x434;&#x44B; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430;</h1>
-<p>&#x421;&#x432;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430; &#x43C;&#x43E;&#x433;&#x443;&#x442; &#x431;&#x44B;&#x442;&#x44C; &#x43F;&#x440;&#x438;&#x43C;&#x438;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x43C;&#x438; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;, &#x434;&#x440;&#x443;&#x433;&#x438;&#x43C;&#x438; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430;&#x43C;&#x438; &#x438; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x44F;&#x43C;&#x438;. &#x412; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x435;&#x43C; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x435; &#x43E;&#x43D;&#x438; &#x43D;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x43C;&#x435;&#x442;&#x43E;&#x434;&#x430;&#x43C;&#x438; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430;.</p>
-<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> user = {
-  name: <span class="hljs-string">&quot;John&quot;</span>,
-
-  hello: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-    <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.name);
-  },
-
-  changeName: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">newName</span>) </span>{
-    <span class="hljs-keyword">this</span>.name = newName;
-  }
-};
-
-user.hello(); <span class="hljs-comment">// &quot;John&quot;</span>
-user.changeName(<span class="hljs-string">&quot;Alex&quot;</span>);
-user.hello(); <span class="hljs-comment">// &quot;Alex&quot;</span>
-</code></pre>
-<p>&#x412; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435; &#x43C;&#x435;&#x442;&#x43E;&#x434;&#x44B; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x44E;&#x442; &#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x432;&#x43E;&#x435; &#x441;&#x43B;&#x43E;&#x432;&#x43E; <code>this</code>. &#x41F;&#x440;&#x438; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x438;&#x438;, &#x43D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;, &#x43C;&#x435;&#x442;&#x43E;&#x434;&#x430; <code>changeName</code>, &#x432; <code>this</code> &#x445;&#x440;&#x430;&#x43D;&#x438;&#x442;&#x441;&#x44F; &#x441;&#x441;&#x44B;&#x43B;&#x43A;&#x430; &#x43D;&#x430; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x439; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442; <code>user</code>.</p>
-<p><a href="https://learn.javascript.ru/object-methods" target="_blank">&#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435; &#x43E; &#x43C;&#x435;&#x442;&#x43E;&#x434;&#x430;&#x445; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x43E;&#x432; &#x438; <code>this</code></a>.</p>
-<h1 id="&#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x435;-&#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x43E;&#x432;-&#x447;&#x435;&#x440;&#x435;&#x437;-new"><a name="&#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x435;-&#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x43E;&#x432;-&#x447;&#x435;&#x440;&#x435;&#x437;-new" class="plugin-anchor" href="#&#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x435;-&#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x43E;&#x432;-&#x447;&#x435;&#x440;&#x435;&#x437;-new"><i class="fa fa-link" aria-hidden="true"></i></a>&#x421;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x43E;&#x432; &#x447;&#x435;&#x440;&#x435;&#x437; &quot;new&quot;</h1>
-<p>&#x414;&#x43B;&#x44F; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x441;&#x442;&#x432;&#x430; &#x43E;&#x434;&#x43D;&#x43E;&#x442;&#x438;&#x43F;&#x43D;&#x44B;&#x445; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x43E;&#x432; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x44E;&#x442; <strong>&#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438;-&#x43A;&#x43E;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43A;&#x442;&#x43E;&#x440;&#x44B;</strong>, &#x437;&#x430;&#x43F;&#x443;&#x441;&#x43A;&#x430;&#x435;&#x43C;&#x44B;&#x435; &#x43F;&#x440;&#x438; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x438; &#x441;&#x43F;&#x435;&#x446;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E; &#x43E;&#x43F;&#x435;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x430; <code>new</code>.</p>
-<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Car</span>(<span class="hljs-params">name</span>) </span>{
-  <span class="hljs-keyword">this</span>.name = name;
-  <span class="hljs-keyword">this</span>.isBroken = <span class="hljs-literal">false</span>;
-
-  <span class="hljs-keyword">var</span> serialKey = <span class="hljs-built_in">Math</span>.random();
-
-  <span class="hljs-keyword">this</span>.getSerialKey = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-    <span class="hljs-keyword">return</span> serialKey;
-  };
-}
-
-<span class="hljs-keyword">var</span> audi = <span class="hljs-keyword">new</span> Car(<span class="hljs-string">&quot;Audi&quot;</span>);
-<span class="hljs-keyword">var</span> bmw = <span class="hljs-keyword">new</span> Car(<span class="hljs-string">&quot;BMW&quot;</span>);
-bmw.isBroken = <span class="hljs-literal">true</span>;
-</code></pre>
-<p>&#x424;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x44F;, &#x437;&#x430;&#x43F;&#x443;&#x449;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x447;&#x435;&#x440;&#x435;&#x437; new, &#x434;&#x435;&#x43B;&#x430;&#x435;&#x442; &#x441;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x435;&#x435;:</p>
+                                <h1 id="&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-1"><a name="&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-1" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-1"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435; 1</h1>
 <ol>
-<li>&#x421;&#x43E;&#x437;&#x434;&#x430;&#x451;&#x442;&#x441;&#x44F; &#x43D;&#x43E;&#x432;&#x44B;&#x439; &#x43F;&#x443;&#x441;&#x442;&#x43E;&#x439; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;.</li>
-<li>&#x41A;&#x43B;&#x44E;&#x447;&#x435;&#x432;&#x43E;&#x435; &#x441;&#x43B;&#x43E;&#x432;&#x43E; this &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x435;&#x442; &#x441;&#x441;&#x44B;&#x43B;&#x43A;&#x443; &#x43D;&#x430; &#x44D;&#x442;&#x43E;&#x442; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;.</li>
-<li>&#x424;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x44F; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x44F;&#x435;&#x442;&#x441;&#x44F;. &#x41A;&#x430;&#x43A; &#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x43E;, &#x43E;&#x43D;&#x430; &#x43C;&#x43E;&#x434;&#x438;&#x444;&#x438;&#x446;&#x438;&#x440;&#x443;&#x435;&#x442; this (&#x442;.&#x435;. &#x44D;&#x442;&#x43E;&#x442; &#x43D;&#x43E;&#x432;&#x44B;&#x439; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;), &#x434;&#x43E;&#x431;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x442; &#x43C;&#x435;&#x442;&#x43E;&#x434;&#x44B;, &#x441;&#x432;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430;.</li>
-<li>&#x412;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442;&#x441;&#x44F; this.</li>
+<li>Create HTML Page with basic markup</li>
+<li>Add Meta information</li>
+<li>Add Headers from 1 to 6 and after each header add a horizontal line</li>
+<li>Add list</li>
+<li>Add div and change its background using HEX format</li>
+<li>Att simple table with 3 columns and 2 rows</li>
+<li>Add image</li>
+<li>Add link to your favorite site</li>
+<li>Add pre tag with white space</li>
+<li>Add paragraph with four lines which are broken by <code>&lt;br&gt;</code> tag</li>
 </ol>
-<p>&#x412; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435; &#x431;&#x443;&#x434;&#x443;&#x442; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x44B; &#x434;&#x432;&#x430; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;&#x430;:</p>
-<pre><code class="lang-javascript">audi = {
-  getSerialKey: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-    <span class="hljs-keyword">return</span> serialKey;
-  },
-  isBroken: <span class="hljs-literal">false</span>,
-  name: <span class="hljs-string">&quot;Audi&quot;</span>
-};
-</code></pre>
-<p>&#x438;</p>
-<pre><code class="lang-javascript">bmw = {
-  getSerialKey: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-    <span class="hljs-keyword">return</span> serialKey;
-  },
-  isBroken: <span class="hljs-literal">true</span>,
-  name: <span class="hljs-string">&quot;BMW&quot;</span>
-};
-</code></pre>
-<p><a href="https://learn.javascript.ru/constructor-new" target="_blank">&#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435; &#x43E;&#x431; &#x43E;&#x43F;&#x435;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x435; <code>new</code></a>.</p>
-<h1 id="&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435;-this"><a name="&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435;-this" class="plugin-anchor" href="#&#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435;-this"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435; <code>this</code></h1>
-<p>&#x417;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435; this &#x443;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x432;&#x43B;&#x438;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x432; &#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438; &#x43E;&#x442; &#x442;&#x43E;&#x433;&#x43E;, &#x43A;&#x430;&#x43A; &#x432;&#x44B;&#x437;&#x432;&#x430;&#x43D;&#x430; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x44F;.</p>
-<p>&#x41F;&#x440;&#x438; &#x432;&#x44B;&#x437;&#x43E;&#x432;&#x435; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438; &#x43A;&#x430;&#x43A; &#x43C;&#x435;&#x442;&#x43E;&#x434;&#x430;:</p>
-<pre><code class="lang-javascript">obj.func(...) <span class="hljs-comment">// this = obj</span>
-obj[<span class="hljs-string">&quot;func&quot;</span>](...)
-</code></pre>
-<p>&#x41F;&#x440;&#x438; &#x43E;&#x431;&#x44B;&#x447;&#x43D;&#x43E;&#x43C; &#x432;&#x44B;&#x437;&#x43E;&#x432;&#x435;:</p>
-<pre><code class="lang-javascript">func(...) <span class="hljs-comment">// this = window (ES3) /undefined (ES5)</span>
-</code></pre>
-<p>&#x412; new:</p>
-<pre><code class="lang-javascript"><span class="hljs-keyword">new</span> func(); <span class="hljs-comment">// this = {} (&#x43D;&#x43E;&#x432;&#x44B;&#x439; &#x43E;&#x431;&#x44A;&#x435;&#x43A;&#x442;)</span>
-</code></pre>
-<p>&#x42F;&#x432;&#x43D;&#x43E;&#x435; &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x438;&#x435;:</p>
-<pre><code class="lang-javascript">func.apply(context, args) <span class="hljs-comment">// this = context (&#x44F;&#x432;&#x43D;&#x430;&#x44F; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x447;&#x430;)</span>
-func.call(context, arg1, arg2, ...)
-</code></pre>
-<p>&#x422;&#x430;&#x43A;&#x436;&#x435; &#x441;&#x442;&#x43E;&#x438;&#x442; &#x443;&#x43F;&#x43E;&#x43C;&#x44F;&#x43D;&#x443;&#x442;&#x44C; &#x432;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x43C;&#x435;&#x442;&#x43E;&#x434; <code>bind</code>, &#x43F;&#x43E;&#x437;&#x432;&#x43E;&#x43B;&#x44F;&#x44E;&#x449;&#x438;&#x439; &#x43F;&#x440;&#x438;&#x432;&#x44F;&#x437;&#x430;&#x442;&#x44C; &#x43A;&#x43E;&#x43D;&#x442;&#x435;&#x43A;&#x441;&#x442;.</p>
-<p><a href="https://learn.javascript.ru/objects-more" target="_blank">&#x41F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435; &#x43E; &#x43A;&#x43E;&#x43D;&#x442;&#x435;&#x43A;&#x441;&#x442;&#x435;</a>.</p><!-- tags --><div id="tags" class="tags"><p><i class="fa fa-tags" aria-hidden="true"></i> <a href="../tags.html#js">js</a> <a href="../tags.html#javascript">JavaScript</a> <a href="../tags.html#context">context</a></p></div><!-- tagsstop -->
+<h1 id="&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-2"><a name="&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-2" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-2"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435; 2</h1>
+<p>&#x421;&#x432;&#x435;&#x440;&#x441;&#x442;&#x430;&#x442;&#x44C; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x443; &#x43F;&#x43E; &#x44D;&#x442;&#x43E;&#x43C;&#x443; &#x43C;&#x430;&#x43A;&#x435;&#x442;&#x443;.</p>
+<p align="center">
+    <img width="750" title="HTML" src="https://s3.amazonaws.com/media-p.slid.es/uploads/130700/images/1821388/screencapture-file-C-Users-dmitrii_pikulin-OneDrive-Fronend-20Courses-presentations-HTML_BASICS_HW-html-1444649895890.png">
+</p>
+
+<p>&#x414;&#x43B;&#x44F; &#x442;&#x435;&#x43A;&#x441;&#x442;&#x430; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; <a href="https://ru.lipsum.com/" target="_blank">&#x441;&#x435;&#x440;&#x432;&#x438;&#x441;</a>.</p>
+<h1 id="&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-3"><a name="&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-3" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-3"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435; 3</h1>
+<p><a href="http://flukeout.github.io/" target="_blank">&#x41F;&#x440;&#x43E;&#x439;&#x434;&#x438;&#x442;&#x435; &#x432;&#x441;&#x435; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x438;</a>.</p>
+<h1 id="&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-4"><a name="&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-4" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435;-4"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x43D;&#x438;&#x435; 4</h1>
+<p>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x43D;&#x430; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x43D;&#x443;&#x44E; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x443; &#x432;&#x441;&#x435; &#x438;&#x437;&#x443;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x441;&#x442;&#x438;&#x43B;&#x438;. &#x414;&#x43B;&#x44F; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x432;&#x441;&#x435; &#x438;&#x437;&#x432;&#x435;&#x441;&#x442;&#x43D;&#x44B;&#x435; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x44B; (<a href="http://htmlbook.ru/samcss/sposoby-dobavleniya-stiley-na-stranitsu" target="_blank">&#x421;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x44B; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x442;&#x438;&#x43B;&#x435;&#x439; &#x43D;&#x430; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x443;</a>).</p><!-- tags --><div id="tags" class="tags"><p><i class="fa fa-tags" aria-hidden="true"></i> <a href="../tags.html#html">html</a> <a href="../tags.html#css">css</a> <a href="../tags.html#basics">basics</a> <a href="../tags.html#fundamentals">fundamentals</a> <a href="../tags.html#task">task</a></p></div><!-- tagsstop -->
                                 
                                 </section>
                             
@@ -854,12 +797,12 @@ func.call(context, arg1, arg2, ...)
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Лекция 14">
+                <a href="css-basics.html" class="navigation navigation-prev " aria-label="Previous page: CSS Основы">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="js-context-tasks.html" class="navigation navigation-next " aria-label="Next page: Практика">
+                <a href="../lecture10/" class="navigation navigation-next " aria-label="Next page: Лекция 10">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -870,7 +813,7 @@ func.call(context, arg1, arg2, ...)
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Контекст в JS","level":"1.9.1","depth":2,"next":{"title":"Практика","level":"1.9.2","depth":2,"path":"lecture14/js-context-tasks.md","ref":"lecture14/js-context-tasks.md","articles":[]},"previous":{"title":"Лекция 14","level":"1.9","depth":1,"path":"lecture14/README.md","ref":"lecture14/README.md","articles":[{"title":"Контекст в JS","level":"1.9.1","depth":2,"path":"lecture14/js-context.md","ref":"lecture14/js-context.md","articles":[]},{"title":"Практика","level":"1.9.2","depth":2,"path":"lecture14/js-context-tasks.md","ref":"lecture14/js-context-tasks.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["exercises@git+https://github.com/ifedyukin/plugin-exercises.git","tags@git+https://github.com/ifedyukin/gitbook-plugin-tags.git","toggle-chapters@git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters","include","multipart","advanced-emoji","anchors","lunr","edit-link","-sharing","-fontsettings"],"root":"./book","styles":{"website":"assets/webpurple.css"},"pluginsConfig":{"include":{},"search":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"highlight":{},"tags":{"placement":"bottom"},"exercises":{},"advanced-emoji":{"embedEmojis":false},"edit-link":{"label":"","base":"https://github.com/webpurple/learn/edit/master/book/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"WebPurple Learn Book","language":"ru","links":{"sidebar":{}},"gitbook":">=3.x.x","description":"Learn JS with WebPurple"},"file":{"path":"lecture14/js-context.md","mtime":"2018-08-23T19:40:55.059Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-08-23T19:42:51.545Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Практика","level":"1.6.3","depth":2,"next":{"title":"Лекция 10","level":"1.7","depth":1,"path":"lecture10/README.md","ref":"lecture10/README.md","articles":[{"title":"HTML Основы 2","level":"1.7.1","depth":2,"path":"lecture10/html-fundamentals.md","ref":"lecture10/html-fundamentals.md","articles":[]},{"title":"CSS Основы 2","level":"1.7.2","depth":2,"path":"lecture10/css-fundamentals.md","ref":"lecture10/css-fundamentals.md","articles":[]},{"title":"Практика","level":"1.7.3","depth":2,"path":"lecture10/html-css-fundamentals-tasks.md","ref":"lecture10/html-css-fundamentals-tasks.md","articles":[]}]},"previous":{"title":"CSS Основы","level":"1.6.2","depth":2,"path":"lecture9/css-basics.md","ref":"lecture9/css-basics.md","articles":[]},"dir":"ltr"},"config":{"plugins":["exercises@git+https://github.com/ifedyukin/plugin-exercises.git","tags@git+https://github.com/ifedyukin/gitbook-plugin-tags.git","toggle-chapters@git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters","include","multipart","advanced-emoji","anchors","lunr","edit-link","-sharing","-fontsettings"],"root":"./book","styles":{"website":"assets/webpurple.css"},"pluginsConfig":{"include":{},"search":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"highlight":{},"tags":{"placement":"bottom"},"exercises":{},"advanced-emoji":{"embedEmojis":false},"edit-link":{"label":"","base":"https://github.com/webpurple/learn/edit/master/book/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"WebPurple Learn Book","language":"ru","links":{"sidebar":{}},"gitbook":">=3.x.x","description":"Learn JS with WebPurple"},"file":{"path":"lecture9/html-css-basics-tasks.md","mtime":"2018-08-23T19:40:55.063Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-08-23T19:42:51.545Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
