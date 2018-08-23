@@ -3,8 +3,6 @@ node_js:
   - "lts/*"
 script:
   - npm run build
-  - rm _book/**/*.md
-  - rm -rf _book/gitbook/images
   - cp -R book/assets/images _book/gitbook
 deploy:
   provider: pages

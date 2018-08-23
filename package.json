@@ -6,8 +6,9 @@
     "gitbook:fetch": "gitbook fetch latest",
     "gitbook:install": "gitbook install",
     "start": "gitbook serve",
-    "build": "gitbook build",
-    "postinstall": "npm run gitbook:fetch && npm run gitbook:install"
+    "build": "gitbook build && npm run clean",
+    "postinstall": "npm run gitbook:fetch && npm run gitbook:install",
+    "clean": "rimraf _book/**/*.md && rimraf _book/gitbook/images"
   },
   "repository": {
     "type": "git",
@@ -22,15 +23,16 @@
   "dependencies": {
     "gitbook-cli": "2.3.2",
     "gitbook-plugin-advanced-emoji": "0.2.2",
-    "gitbook-plugin-anchors": "^0.7.1",
-    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-anchors": "0.7.1",
+    "gitbook-plugin-edit-link": "2.0.2",
     "gitbook-plugin-editlink": "1.0.2",
     "gitbook-plugin-exercises": "git+https://github.com/ifedyukin/plugin-exercises.git",
-    "gitbook-plugin-include": "^0.1.0",
+    "gitbook-plugin-include": "0.1.0",
     "gitbook-plugin-livereload": "0.0.1",
     "gitbook-plugin-lunr": "1.2.0",
-    "gitbook-plugin-multipart": "^0.3.0",
+    "gitbook-plugin-multipart": "0.3.0",
     "gitbook-plugin-tags": "git+https://github.com/ifedyukin/gitbook-plugin-tags.git",
-    "gitbook-plugin-toggle-chapters": "git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters.git"
+    "gitbook-plugin-toggle-chapters": "git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters.git",
+    "rimraf": "2.6.2"
   }
 }
