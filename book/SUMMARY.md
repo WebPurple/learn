@@ -37,6 +37,7 @@
     -   [Лекция 15](externals/lecture15/README.md)
         -   [ООП в JavaScript](externals/lecture15/js-oop.md)
         -   [Практика](externals/lecture15/js-oop-tasks.md)
+    -   [Slides PoC](externals/slides-poc/README.md)
 
 -   [Справочники](dictionaries/README.md)
     -   [Инструменты](dictionaries/instruments/README.md)

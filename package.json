@@ -31,6 +31,7 @@
     "gitbook-plugin-livereload": "0.0.1",
     "gitbook-plugin-lunr": "1.2.0",
     "gitbook-plugin-multipart": "0.3.0",
+    "gitbook-plugin-slides-integration": "git+https://github.com/ifedyukin/gitbook-plugin-slides-integration.git",
     "gitbook-plugin-tags": "git+https://github.com/ifedyukin/gitbook-plugin-tags.git",
     "gitbook-plugin-toggle-chapters": "git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters.git",
     "rimraf": "2.6.2"
