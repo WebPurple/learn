@@ -61,6 +61,7 @@
         -   [Цитаты](dictionaries/html/html_quotation.md)
         -   [Комментарии](dictionaries/html/html_comments.md)
         -   [Ссылки](dictionaries/html/html_links.md)
+        -   [Изображения](dictionaries/html/html_images.md)
         -   [](dictionaries/html/)
 
     -   [CSS](dictionaries/css/README.md)

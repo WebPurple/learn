@@ -11,3 +11,4 @@
 - [Цитаты](html_quotation.md)
 - [Комментарии](html_comments.md)
 - [Ссылки](html_links.md)
+- [Изображения](html_images.md)
