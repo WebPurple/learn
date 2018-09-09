@@ -40,54 +40,6 @@ var Calculator = (function () {
 })()
 
 {% solution %}
-var Calculator = (function () {
-  var result = 0;
-  
-  function add() {
-    for (let i = 0; i < arguments.length; i++) {
-      result += arguments[i];
-    }
-    return add;
-  }
-  
-  function subtract() {
-    for (var i = 0; i < arguments.length; i++) {
-      result -= arguments[i];
-    }
-    return subtract;
-  }
-  
-  function divide() {
-    for (var i = 0; i < arguments.length; i++) {
-      result /= arguments[i];
-    }
-    return divide;
-  }
-  
-  function multiply() {
-    for (let i = 0; i < arguments.length; i++) {
-      result *= arguments[i];
-    }
-    return multiply;
-  }
-  
-  function getResult() {
-    return result;
-  }
-  
-  function reset() {
-    result = 0;
-  }
-  
-  return {
-    add: add,
-    subtract: subtract,
-    divide: divide,
-    multiply: multiply,
-    getResult: getResult,
-    reset: reset
-  };
-})();
 
 {% validation %}
 assert(Calculator.getResult() == 0);

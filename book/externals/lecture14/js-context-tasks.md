@@ -50,72 +50,12 @@ Calculator.getState(Calculator.setInitialState);
 
 {% initial %}
 var Calculator = (function () {
-result = 0;
+  result = 0;
 
-return {};  
+  return {};
 })()
 
 {% solution %}
-var Calculator = (function() {
-  var result = 0;
-
-  function add() {
-    for (let i = 0; i < arguments.length; i++) {
-      result += arguments[i];
-    }
-    return this;
-  }
-
-  function subtract() {
-    for (var i = 0; i < arguments.length; i++) {
-      result -= arguments[i];
-    }
-    return this;
-  }
-
-  function divide() {
-    for (var i = 0; i < arguments.length; i++) {
-      result /= arguments[i];
-    }
-    return this;
-  }
-
-  function multiply() {
-    for (let i = 0; i < arguments.length; i++) {
-      result *= arguments[i];
-    }
-    return this;
-  }
-
-  function getResult() {
-    return result;
-  }
-
-  function reset() {
-    result = 0;
-  }
-
-  function setInitialState(arg) {
-    result = arg;
-  }
-
-  function getInitialState(callback) {
-    setTimeout(function() {
-      callback.call(this, 500);
-    }, 1000);
-  }
-
-  return {
-    add: add,
-    subtract: subtract,
-    divide: divide,
-    multiply: multiply,
-    getResult: getResult,
-    reset: reset,
-    getInitialState: getInitialState,
-    setInitialState: setInitialState
-  };
-})();
 
 {% validation %}
 assert(Calculator.getResult() == 0);

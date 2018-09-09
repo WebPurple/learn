@@ -12,9 +12,6 @@ function getPropFromProto(prop, object) {
 }
 
 {% solution %}
-function getPropFromProto(prop, object) {
-    return !object.hasOwnProperty(prop) ? object[prop] : undefined;
-}
 
 {% validation %}
 const obj = Object.create({a: 1});
@@ -34,9 +31,6 @@ function createObjWithoutProto() {
 }
 
 {% solution %}
-function createObjWithoutProto() {
-    return Object.create(null);
-}
 
 {% validation %}
 const obj = createObjWithoutProto();
@@ -56,9 +50,6 @@ function removeBoundarySpaces(string) {
 }
 
 {% solution %}
-function removeBoundarySpaces(string = '') {
-    return string.trim();
-}
 
 {% validation %}
 assert(removeBoundarySpaces(' abc ') === 'abc');
@@ -75,10 +66,6 @@ function capitalize(string) {
 }
 
 {% solution %}
-function capitalize(string = '') {
-    const [first, ...rest] = string;
-    return first ? `${first.toUpperCase()}${rest.join('')}`: string;
-}
 
 {% validation %}
 assert(capitalize('abc') === 'Abc');
@@ -96,9 +83,6 @@ function substring(string, sub) {
 }
 
 {% solution %}
-function substring(string, sub) {
-    return string.indexOf(sub) !== -1;
-}
 
 {% validation %}
 assert(substring('I love cats', 'cats'));
@@ -116,14 +100,6 @@ function camelize(string) {
 }
 
 {% solution %}
-function camelize(string = '') {
-    return string.split(' ').map(capitalize).join(' ');
-}
-
-function capitalize(string = '') {
-    const [first, ...rest] = string;
-    return first ? `${first.toUpperCase()}${rest.join('')}`: string;
-}
 
 {% validation %}
 assert(camelize('I am cool') === 'I Am Cool');
@@ -140,7 +116,6 @@ function fit(string = '', length) {
 }
 
 {% solution %}
-// TODO
 
 {% validation %}
 assert(fit('abcdefg', 5) === 'ab…');
@@ -157,15 +132,6 @@ function upperCamelize(string = '') {
 }
 
 {% solution %}
-function upperCamelize(string = '') {
-    const [first, ...rest] = string.split(' ');
-    return `${first.toLowerCase()}${rest.reduce((prev, curr) => `${prev}${capitalize(curr)}`,'')}`
-}
-
-function capitalize(string = '') {
-    const [first, ...rest] = string;
-    return first ? `${first.toUpperCase()}${rest.join('')}`: string;
-}
 
 {% validation %}
 assert(upperCamelize('User Object') === 'userObject');
@@ -182,9 +148,6 @@ function insert(target, substring, wordNum) {
 }
 
 {% solution %}
-function insert(source, substring, wordNum) {
-    // TODO
-}
 
 {% validation %}
 assert(insert('I am cool','very',1) === 'I am very cool');
@@ -200,9 +163,6 @@ function reverse(string) {
 }
 
 {% solution %}
-function reverse(string) {
-    return string.split('').reverse().join('');
-}
 
 {% validation %}
 assert(reverse('abc') === 'cba');
@@ -220,9 +180,6 @@ function countSymbols(string) {
 }
 
 {% solution %}
-function countSymbols(string) {
-    // TODO
-}
 
 {% validation %}
 assert(countSymbols('abc') === 'cba');
@@ -241,9 +198,6 @@ function countSymbols(string) {
 }
 
 {% solution %}
-function countSymbols(string) {
-    // TODO
-}
 
 {% validation %}
 f(3.455 + 4.55) -> 8.005
@@ -261,9 +215,6 @@ function countSymbols(string) {
 }
 
 {% solution %}
-function countSymbols(string) {
-    // TODO
-}
 
 {% validation %}
 f() -> 56; f()->33
@@ -281,9 +232,6 @@ function countSymbols(string) {
 }
 
 {% solution %}
-function countSymbols(string) {
-    // TODO
-}
 
 {% validation %}
 f() -> 56; f()->33
