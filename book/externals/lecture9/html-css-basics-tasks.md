@@ -2,16 +2,16 @@ tags: html, css, basics, fundamentals, task
 
 # Задание 1
 
-1. Create HTML Page with basic markup
-1. Add Meta information
-1. Add Headers from 1 to 6 and after each header add a horizontal line
-1. Add list
-1. Add div and change its background using HEX format
-1. Att simple table with 3 columns and 2 rows
-1. Add image
-1. Add link to your favorite site
-1. Add pre tag with white space
-1. Add paragraph with four lines which are broken by `<br>` tag
+1. Создайте HTML-страницу с базовой разметкой
+1. Добавьте META-информацию
+1. Добавьте заголовки 1-6 уровня, разделенные горизонтальной линией
+1. Добавьте список
+1. Добавьте `div` и измените его фон, используя HEX-формат
+1. Создайте простую таблицу с 3 колонками и 2 строками
+1. Добавьте изображение
+1. Добавьте ссылку на ваш любимый сайт
+1. Добавьте тег `<pre>` с каким-либо текстом
+1. Добавьте параграф с 4 абзацами, разделенными тегом `<br>`
 
 # Задание 2
 
@@ -25,7 +25,7 @@ tags: html, css, basics, fundamentals, task
     />
 </p>
 
-Для текста можно использовать [сервис](https://ru.lipsum.com/).
+Для генерации текста можно использовать [сервис](https://ru.lipsum.com/).
 
 # Задание 3
 
@@ -33,4 +33,11 @@ tags: html, css, basics, fundamentals, task
 
 # Задание 4
 
-Добавить на созданную страницу все изученные стили. Для добавления использовать все известные способы ([Способы добавления стилей на страницу](http://htmlbook.ru/samcss/sposoby-dobavleniya-stiley-na-stranitsu)).
+Добавьте на созданную страницу все изученные стили.
+
+1. Измените фон разных блоков. Используйте разные форматы цветов, картинки
+1. Измените размеры элементов страницы, используя различные единицы измерения
+1. Измените шрифты разных элементов страницы. Подключите сторонний шрифт. Измените настройки [текста](css-basics.md#text)
+1. Используйте валидацию страницы для кода HTML и CSS
+
+Для добавления стилей на страницу используйте все известные ([способы добавления стилей на страницу](http://htmlbook.ru/samcss/sposoby-dobavleniya-stiley-na-stranitsu)).
