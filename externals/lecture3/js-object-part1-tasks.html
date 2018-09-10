@@ -1379,15 +1379,11 @@
 
 
 	</div>
-	<div class="editor" style="height: 100px">function logAllKeyValuePairs(object) {
+	<div class="editor" style="height: 20px">function logAllKeyValuePairs(object) {
 
 }</div>
 
-	<pre class="hidden code-solution">function logAllKeyValuePairs(object) {
-    Object.keys(object).forEach(key =&gt; {
-        console.log(`${key} -&gt; ${object[key]}`);
-    })
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">const obj = {a: 1};
 
 const value = logAllKeyValuePairs(obj)
@@ -1422,13 +1418,11 @@ console.log = callCounter(console.log);</pre>
 
 
 	</div>
-	<div class="editor" style="height: 60px">function hasProperty(prop, object) {
+	<div class="editor" style="height: 20px">function hasProperty(prop, object) {
 
 }</div>
 
-	<pre class="hidden code-solution">function hasProperty(prop, object) {
-    return object.hasOwnProperty(prop);
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">const obj = {a: 1};
 
 assert(hasProperty(&apos;a&apos;, obj));
@@ -1457,16 +1451,11 @@ assert(!hasProperty(&apos;b&apos;, obj));</pre>
 
 
 	</div>
-	<div class="editor" style="height: 120px">function setNonExistedProperty(prop, object) {
+	<div class="editor" style="height: 20px">function setNonExistedProperty(prop, object) {
 
 }</div>
 
-	<pre class="hidden code-solution">function setNonExistedProperty(prop, object) {
-    if (!object.hasOwnProperty(prop)) {
-        object[prop] = &apos;new&apos;;
-    }
-    return object;
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">const obj = {a: 1};
 
 setNonExistedProperty(&apos;a&apos;, obj);
@@ -1498,13 +1487,11 @@ assert(&apos;new&apos; === obj.b);</pre>
 
 
 	</div>
-	<div class="editor" style="height: 60px">function clone(object) {
+	<div class="editor" style="height: 20px">function clone(object) {
 
 }</div>
 
-	<pre class="hidden code-solution">function clone(object) {
-    return Object.assign({}, object);
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">const obj = {a: 1};
 assert(obj === clone(obj));</pre>
 	
@@ -1531,18 +1518,11 @@ assert(obj === clone(obj));</pre>
 
 
 	</div>
-	<div class="editor" style="height: 160px">function cloneDeep(object) {
+	<div class="editor" style="height: 20px">function cloneDeep(object) {
 
 }</div>
 
-	<pre class="hidden code-solution">function cloneDeep(object) {
-    let output = Array.isArray(object) ? [] : {};
-    for (let prop in object) {
-        const v = object[prop];
-        output[prop] = (v === Object(v) &amp;&amp; typeof a !== &apos;function&apos;) ? cloneDeep(v) : v;
-    }
-    return output;
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">const obj = {a:1,b:{c:0},e:{f:[{g:1}]}};
 const objCopy = cloneDeep(obj);
 
@@ -1600,7 +1580,7 @@ assert(obj.e.f !== objCopy.e.f)</pre>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Практика","level":"1.2.3.2","depth":3,"next":{"title":"Лекция 4","level":"1.2.4","depth":2,"path":"externals/lecture4/README.md","ref":"externals/lecture4/README.md","articles":[{"title":"Объекты в JavaScript. Часть 2","level":"1.2.4.1","depth":3,"path":"externals/lecture4/js-object-part2.md","ref":"externals/lecture4/js-object-part2.md","articles":[]},{"title":"Практика","level":"1.2.4.2","depth":3,"path":"externals/lecture4/js-object-part2-tasks.md","ref":"externals/lecture4/js-object-part2-tasks.md","articles":[]}]},"previous":{"title":"Объекты в JavaScript. Часть 1","level":"1.2.3.1","depth":3,"path":"externals/lecture3/js-object-part1.md","ref":"externals/lecture3/js-object-part1.md","articles":[]},"dir":"ltr"},"config":{"plugins":["exercises@git+https://github.com/ifedyukin/plugin-exercises.git","tags@git+https://github.com/ifedyukin/gitbook-plugin-tags.git","toggle-chapters@git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters","slides-integration","include","multipart","advanced-emoji","anchors","lunr","edit-link","-sharing","-fontsettings"],"root":"./book","styles":{"website":"assets/webpurple.css"},"pluginsConfig":{"include":{},"search":{},"slides-integration":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"highlight":{},"tags":{"placement":"bottom"},"exercises":{},"advanced-emoji":{"embedEmojis":false},"edit-link":{"label":"","base":"https://github.com/webpurple/learn/edit/master/book/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"WebPurple Learn Book","language":"ru","links":{"sidebar":{}},"gitbook":">=3.x.x","description":"Learn JS with WebPurple"},"file":{"path":"externals/lecture3/js-object-part1-tasks.md","mtime":"2018-09-10T05:08:20.126Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-10T05:09:27.891Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Практика","level":"1.2.3.2","depth":3,"next":{"title":"Лекция 4","level":"1.2.4","depth":2,"path":"externals/lecture4/README.md","ref":"externals/lecture4/README.md","articles":[{"title":"Объекты в JavaScript. Часть 2","level":"1.2.4.1","depth":3,"path":"externals/lecture4/js-object-part2.md","ref":"externals/lecture4/js-object-part2.md","articles":[]},{"title":"Практика","level":"1.2.4.2","depth":3,"path":"externals/lecture4/js-object-part2-tasks.md","ref":"externals/lecture4/js-object-part2-tasks.md","articles":[]}]},"previous":{"title":"Объекты в JavaScript. Часть 1","level":"1.2.3.1","depth":3,"path":"externals/lecture3/js-object-part1.md","ref":"externals/lecture3/js-object-part1.md","articles":[]},"dir":"ltr"},"config":{"plugins":["exercises@git+https://github.com/ifedyukin/plugin-exercises.git","tags@git+https://github.com/ifedyukin/gitbook-plugin-tags.git","toggle-chapters@git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters","slides-integration","include","multipart","advanced-emoji","anchors","lunr","edit-link","-sharing","-fontsettings"],"root":"./book","styles":{"website":"assets/webpurple.css"},"pluginsConfig":{"include":{},"search":{},"slides-integration":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"highlight":{},"tags":{"placement":"bottom"},"exercises":{},"advanced-emoji":{"embedEmojis":false},"edit-link":{"label":"","base":"https://github.com/webpurple/learn/edit/master/book/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"WebPurple Learn Book","language":"ru","links":{"sidebar":{}},"gitbook":">=3.x.x","description":"Learn JS with WebPurple"},"file":{"path":"externals/lecture3/js-object-part1-tasks.md","mtime":"2018-09-10T05:08:45.111Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-10T05:10:09.546Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

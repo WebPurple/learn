@@ -1352,13 +1352,11 @@
 
 
 	</div>
-	<div class="editor" style="height: 60px">function getPropFromProto(prop, object) {
+	<div class="editor" style="height: 20px">function getPropFromProto(prop, object) {
 
 }</div>
 
-	<pre class="hidden code-solution">function getPropFromProto(prop, object) {
-    return !object.hasOwnProperty(prop) ? object[prop] : undefined;
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">const obj = Object.create({a: 1});
 obj.b = 2;
 assert(getPropFromProto(&apos;a&apos;, obj) === 1);
@@ -1387,13 +1385,11 @@ assert(getPropFromProto(&apos;b&apos;, obj) === undefined);</pre>
 
 
 	</div>
-	<div class="editor" style="height: 60px">function createObjWithoutProto() {
+	<div class="editor" style="height: 20px">function createObjWithoutProto() {
 
 }</div>
 
-	<pre class="hidden code-solution">function createObjWithoutProto() {
-    return Object.create(null);
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">const obj = createObjWithoutProto();
 assert(Object.getPrototypeOf(obj) == null);</pre>
 	
@@ -1421,13 +1417,11 @@ assert(Object.getPrototypeOf(obj) == null);</pre>
 
 
 	</div>
-	<div class="editor" style="height: 60px">function removeBoundarySpaces(string) {
+	<div class="editor" style="height: 20px">function removeBoundarySpaces(string) {
 
 }</div>
 
-	<pre class="hidden code-solution">function removeBoundarySpaces(string = &apos;&apos;) {
-    return string.trim();
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">assert(removeBoundarySpaces(&apos; abc &apos;) === &apos;abc&apos;);</pre>
 	
 
@@ -1453,14 +1447,11 @@ assert(Object.getPrototypeOf(obj) == null);</pre>
 
 
 	</div>
-	<div class="editor" style="height: 80px">function capitalize(string) {
+	<div class="editor" style="height: 20px">function capitalize(string) {
 
 }</div>
 
-	<pre class="hidden code-solution">function capitalize(string = &apos;&apos;) {
-    const [first, ...rest] = string;
-    return first ? `${first.toUpperCase()}${rest.join(&apos;&apos;)}`: string;
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">assert(capitalize(&apos;abc&apos;) === &apos;Abc&apos;);
 assert(capitalize(&apos;&apos;) === &apos;&apos;);</pre>
 	
@@ -1487,13 +1478,11 @@ assert(capitalize(&apos;&apos;) === &apos;&apos;);</pre>
 
 
 	</div>
-	<div class="editor" style="height: 60px">function substring(string, sub) {
+	<div class="editor" style="height: 20px">function substring(string, sub) {
 
 }</div>
 
-	<pre class="hidden code-solution">function substring(string, sub) {
-    return string.indexOf(sub) !== -1;
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">assert(substring(&apos;I love cats&apos;, &apos;cats&apos;));
 assert(!substring(&apos;I love Cats&apos;, &apos;cats&apos;));</pre>
 	
@@ -1520,18 +1509,11 @@ assert(!substring(&apos;I love Cats&apos;, &apos;cats&apos;));</pre>
 
 
 	</div>
-	<div class="editor" style="height: 160px">function camelize(string) {
+	<div class="editor" style="height: 20px">function camelize(string) {
 
 }</div>
 
-	<pre class="hidden code-solution">function camelize(string = &apos;&apos;) {
-    return string.split(&apos; &apos;).map(capitalize).join(&apos; &apos;);
-}
-
-function capitalize(string = &apos;&apos;) {
-    const [first, ...rest] = string;
-    return first ? `${first.toUpperCase()}${rest.join(&apos;&apos;)}`: string;
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">assert(camelize(&apos;I am cool&apos;) === &apos;I Am Cool&apos;);</pre>
 	
 
@@ -1561,7 +1543,7 @@ function capitalize(string = &apos;&apos;) {
 
 }</div>
 
-	<pre class="hidden code-solution">// TODO</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">assert(fit(&apos;abcdefg&apos;, 5) === &apos;ab&#x2026;&apos;);</pre>
 	
 
@@ -1587,19 +1569,11 @@ function capitalize(string = &apos;&apos;) {
 
 
 	</div>
-	<div class="editor" style="height: 180px">function upperCamelize(string = &apos;&apos;) {
+	<div class="editor" style="height: 20px">function upperCamelize(string = &apos;&apos;) {
 
 }</div>
 
-	<pre class="hidden code-solution">function upperCamelize(string = &apos;&apos;) {
-    const [first, ...rest] = string.split(&apos; &apos;);
-    return `${first.toLowerCase()}${rest.reduce((prev, curr) =&gt; `${prev}${capitalize(curr)}`,&apos;&apos;)}`
-}
-
-function capitalize(string = &apos;&apos;) {
-    const [first, ...rest] = string;
-    return first ? `${first.toUpperCase()}${rest.join(&apos;&apos;)}`: string;
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">assert(upperCamelize(&apos;User Object&apos;) === &apos;userObject&apos;);</pre>
 	
 
@@ -1625,13 +1599,11 @@ function capitalize(string = &apos;&apos;) {
 
 
 	</div>
-	<div class="editor" style="height: 60px">function insert(target, substring, wordNum) {
+	<div class="editor" style="height: 20px">function insert(target, substring, wordNum) {
 
 }</div>
 
-	<pre class="hidden code-solution">function insert(source, substring, wordNum) {
-    // TODO
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">assert(insert(&apos;I am cool&apos;,&apos;very&apos;,1) === &apos;I am very cool&apos;);</pre>
 	
 
@@ -1657,12 +1629,10 @@ function capitalize(string = &apos;&apos;) {
 
 
 	</div>
-	<div class="editor" style="height: 60px">function reverse(string) {
+	<div class="editor" style="height: 20px">function reverse(string) {
 }</div>
 
-	<pre class="hidden code-solution">function reverse(string) {
-    return string.split(&apos;&apos;).reverse().join(&apos;&apos;);
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">assert(reverse(&apos;abc&apos;) === &apos;cba&apos;);</pre>
 	
 
@@ -1689,13 +1659,11 @@ f(&#x2018;abbac&#x2019;) // &#x432; &#x43A;&#x43E;&#x43D;&#x441;&#x43E;&#x43B;&#
 
 
 	</div>
-	<div class="editor" style="height: 60px">function countSymbols(string) {
+	<div class="editor" style="height: 20px">function countSymbols(string) {
     return string.split(&apos;&apos;).reverse().join(&apos;&apos;);
 }</div>
 
-	<pre class="hidden code-solution">function countSymbols(string) {
-    // TODO
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">assert(countSymbols(&apos;abc&apos;) === &apos;cba&apos;);</pre>
 	
 
@@ -1722,13 +1690,11 @@ f(&#x2018;abbac&#x2019;) // &#x432; &#x43A;&#x43E;&#x43D;&#x441;&#x43E;&#x43B;&#
 
 
 	</div>
-	<div class="editor" style="height: 60px">function countSymbols(string) {
+	<div class="editor" style="height: 20px">function countSymbols(string) {
     return string.split(&apos;&apos;).reverse().join(&apos;&apos;);
 }</div>
 
-	<pre class="hidden code-solution">function countSymbols(string) {
-    // TODO
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">f(3.455 + 4.55) -&gt; 8.005
 assert(countSymbols(&apos;abc&apos;) === &apos;cba&apos;);</pre>
 	
@@ -1755,13 +1721,11 @@ assert(countSymbols(&apos;abc&apos;) === &apos;cba&apos;);</pre>
 
 
 	</div>
-	<div class="editor" style="height: 60px">function countSymbols(string) {
+	<div class="editor" style="height: 20px">function countSymbols(string) {
     return string.split(&apos;&apos;).reverse().join(&apos;&apos;);
 }</div>
 
-	<pre class="hidden code-solution">function countSymbols(string) {
-    // TODO
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">f() -&gt; 56; f()-&gt;33
 assert(countSymbols(&apos;abc&apos;) === &apos;cba&apos;);</pre>
 	
@@ -1788,13 +1752,11 @@ assert(countSymbols(&apos;abc&apos;) === &apos;cba&apos;);</pre>
 
 
 	</div>
-	<div class="editor" style="height: 60px">function countSymbols(string) {
+	<div class="editor" style="height: 20px">function countSymbols(string) {
     return string.split(&apos;&apos;).reverse().join(&apos;&apos;);
 }</div>
 
-	<pre class="hidden code-solution">function countSymbols(string) {
-    // TODO
-}</pre>
+	<pre class="hidden code-solution"></pre>
 	<pre class="hidden code-validation">f() -&gt; 56; f()-&gt;33
 assert(countSymbols(&apos;abc&apos;) === &apos;cba&apos;);</pre>
 	
@@ -1847,7 +1809,7 @@ assert(countSymbols(&apos;abc&apos;) === &apos;cba&apos;);</pre>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Практика","level":"1.2.4.2","depth":3,"next":{"title":"Лекция 5","level":"1.2.5","depth":2,"path":"externals/lecture5/README.md","ref":"externals/lecture5/README.md","articles":[{"title":"Функции в JavaScript","level":"1.2.5.1","depth":3,"path":"externals/lecture5/js-function.md","ref":"externals/lecture5/js-function.md","articles":[]},{"title":"Практика","level":"1.2.5.2","depth":3,"path":"externals/lecture5/js-function-tasks.md","ref":"externals/lecture5/js-function-tasks.md","articles":[]}]},"previous":{"title":"Объекты в JavaScript. Часть 2","level":"1.2.4.1","depth":3,"path":"externals/lecture4/js-object-part2.md","ref":"externals/lecture4/js-object-part2.md","articles":[]},"dir":"ltr"},"config":{"plugins":["exercises@git+https://github.com/ifedyukin/plugin-exercises.git","tags@git+https://github.com/ifedyukin/gitbook-plugin-tags.git","toggle-chapters@git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters","slides-integration","include","multipart","advanced-emoji","anchors","lunr","edit-link","-sharing","-fontsettings"],"root":"./book","styles":{"website":"assets/webpurple.css"},"pluginsConfig":{"include":{},"search":{},"slides-integration":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"highlight":{},"tags":{"placement":"bottom"},"exercises":{},"advanced-emoji":{"embedEmojis":false},"edit-link":{"label":"","base":"https://github.com/webpurple/learn/edit/master/book/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"WebPurple Learn Book","language":"ru","links":{"sidebar":{}},"gitbook":">=3.x.x","description":"Learn JS with WebPurple"},"file":{"path":"externals/lecture4/js-object-part2-tasks.md","mtime":"2018-09-10T05:08:20.126Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-10T05:09:27.891Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Практика","level":"1.2.4.2","depth":3,"next":{"title":"Лекция 5","level":"1.2.5","depth":2,"path":"externals/lecture5/README.md","ref":"externals/lecture5/README.md","articles":[{"title":"Функции в JavaScript","level":"1.2.5.1","depth":3,"path":"externals/lecture5/js-function.md","ref":"externals/lecture5/js-function.md","articles":[]},{"title":"Практика","level":"1.2.5.2","depth":3,"path":"externals/lecture5/js-function-tasks.md","ref":"externals/lecture5/js-function-tasks.md","articles":[]}]},"previous":{"title":"Объекты в JavaScript. Часть 2","level":"1.2.4.1","depth":3,"path":"externals/lecture4/js-object-part2.md","ref":"externals/lecture4/js-object-part2.md","articles":[]},"dir":"ltr"},"config":{"plugins":["exercises@git+https://github.com/ifedyukin/plugin-exercises.git","tags@git+https://github.com/ifedyukin/gitbook-plugin-tags.git","toggle-chapters@git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters","slides-integration","include","multipart","advanced-emoji","anchors","lunr","edit-link","-sharing","-fontsettings"],"root":"./book","styles":{"website":"assets/webpurple.css"},"pluginsConfig":{"include":{},"search":{},"slides-integration":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"highlight":{},"tags":{"placement":"bottom"},"exercises":{},"advanced-emoji":{"embedEmojis":false},"edit-link":{"label":"","base":"https://github.com/webpurple/learn/edit/master/book/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"WebPurple Learn Book","language":"ru","links":{"sidebar":{}},"gitbook":">=3.x.x","description":"Learn JS with WebPurple"},"file":{"path":"externals/lecture4/js-object-part2-tasks.md","mtime":"2018-09-10T05:08:45.111Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-10T05:10:09.546Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
