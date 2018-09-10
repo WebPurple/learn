@@ -41,7 +41,7 @@
 
 -   [Справочники](dictionaries/README.md)
     -   [Инструменты](dictionaries/instruments/README.md)
-        -   [Nodejs](dictionaries/instruments/nodejs.md)
+        -   [Node.js](dictionaries/instruments/nodejs/nodejs.md)
         -   [VS Code](dictionaries/instruments/vscode/intro.md)
             -   [Debug](dictionaries/instruments/vscode/debug.md)
         -   [ESLint](dictionaries/instruments/eslint.md)
