@@ -21,11 +21,6 @@ function logAllKeyValuePairs(object) {
 }
 
 {% solution %}
-function logAllKeyValuePairs(object) {
-    Object.keys(object).forEach(key => {
-        console.log(`${key} -> ${object[key]}`);
-    })
-}
 
 {% validation %}
 const obj = {a: 1};
@@ -53,9 +48,6 @@ function hasProperty(prop, object) {
 }
 
 {% solution %}
-function hasProperty(prop, object) {
-    return object.hasOwnProperty(prop);
-}
 
 {% validation %}
 const obj = {a: 1};
@@ -76,12 +68,6 @@ function setNonExistedProperty(prop, object) {
 }
 
 {% solution %}
-function setNonExistedProperty(prop, object) {
-    if (!object.hasOwnProperty(prop)) {
-        object[prop] = 'new';
-    }
-    return object;
-}
 
 {% validation %}
 const obj = {a: 1};
@@ -105,9 +91,6 @@ function clone(object) {
 }
 
 {% solution %}
-function clone(object) {
-    return Object.assign({}, object);
-}
 
 {% validation %}
 const obj = {a: 1};
@@ -126,14 +109,6 @@ function cloneDeep(object) {
 }
 
 {% solution %}
-function cloneDeep(object) {
-    let output = Array.isArray(object) ? [] : {};
-    for (let prop in object) {
-        const v = object[prop];
-        output[prop] = (v === Object(v) && typeof a !== 'function') ? cloneDeep(v) : v;
-    }
-    return output;
-}
 
 {% validation %}
 const obj = {a:1,b:{c:0},e:{f:[{g:1}]}};
