@@ -137,10 +137,274 @@ HTML-теги представляют собой ключевые слова, �
 [example](http://jsbin.com/yucove/edit?html,output)
 
 #### Таблицы
-
-В HTML есть возможность отображать контент в виде таблицы.
-
-[См. подробнее о таблицах](../lecture10/html-fundamentals.md#Таблицы).
+     
+В HTML для создания таблицы используется тег `<table>`. Строки таблицы создаются с помощью тега `<tr>`, ячейки - `<td>`.
+ 
+ Например:
+ 
+ ```html
+   <table border="1">
+   <tr>
+ <td>Table cell 1</td>
+ <td>Table cell 2</td>
+   </tr>
+   </table>
+ ```
+ 
+ <table border="1">
+   <tr>
+ <td>Table cell 1</td>
+ <td>Table cell 2</td>
+   </tr>
+ </table>
+ 
+ ### Заголовки
+ 
+ Многие таблицы имеют заголовки. В HTML для этого используется тег `<th>`.
+ 
+ ```html
+   <table border="1">
+ <tr>
+   <th>Table header</th><th>Table header</th>
+ </tr>
+ <tr>
+   <td>Table cell 1</td><td>Table cell 2</td>
+ </tr>
+   </table>
+ ```
+ 
+   <table border="1">
+ <tr>
+   <th>Table header</th><th>Table header</th>
+ </tr>
+ <tr>
+   <td>Table cell 1</td><td>Table cell 2</td>
+ </tr>
+   </table>
+ 
+ ### Colspan, rowspan
+ 
+ Для того, чтобы ячейка таблицы объединяла несколько столбцов, используется атрибут `colspan`.
+ 
+ Атрибут `rowspan` аналогичен `colspan`, но служит для объединения строк.
+ 
+ ```html
+ <table border="1">
+ <tr>
+   <th colspan="2">Table header</th>
+ </tr>
+ <tr>
+   <td>Table cell 1</td><td>Table cell 2</td>
+ </tr>
+   </table>
+ ```
+ 
+ <table border="1">
+ <tr>
+   <th colspan="2">Table header</th>
+ </tr>
+ <tr>
+   <td>Table cell 1</td><td>Table cell 2</td>
+ </tr>
+  </table>
+ 
+ ### Части таблицы
+ 
+ Таблицы могут быть разделены на три части: хедер (head), основную (body), футер (foot). Их предназначение аналогично соответствующим частям веб-страницы. Для их создания используются теги `<thead>`, `<tbody>`, `<tfoot>`.
+ 
+ ```html
+ <table border="1">
+ 
+   <thead>
+ <tr>
+   <th colspan="2">Caption 1</th>
+   <th>Caption 2</th>
+ </tr>
+   </thead>
+ 
+   <tbody>
+ <tr>
+   <td>Row 1.1</td>
+   <td>Row 1.2</td>
+   <td>Row 1.3</td>
+ </tr>
+ <tr>
+   <td>Row 2.1</td>
+   <td colspan="2">Row 2.2</td>
+ </tr>
+ <tr>
+   <td rowspan="2">Row 3.1</td>
+   <td>Row 3.2</td>
+   <td>Row 3.3</td>
+ </tr>
+ <tr>
+   <td>Row 3.4</td>
+   <td>Row 3.5</td>
+ </tr>
+   </tbody>
+ 
+   <tfoot>
+ <tr>
+   <td colspan="3">Footer</td>
+ </tr>
+   </tfoot>
+ 
+ </table>
+ ```
+ 
+ <table border="1">
+   <thead>
+ <tr>
+   <th colspan="2">Caption 1</th>
+   <th>Caption 2</th>
+ </tr>
+   </thead>
+   <tbody>
+ <tr>
+   <td>Row 1.1</td>
+   <td>Row 1.2</td>
+   <td>Row 1.3</td>
+ </tr>
+ <tr>
+   <td>Row 2.1</td>
+   <td colspan="2">Row 2.2</td>
+ </tr>
+ <tr>
+   <td rowspan="2">Row 3.1</td>
+   <td>Row 3.2</td>
+   <td>Row 3.3</td>
+ </tr>
+ <tr>
+   <td>Row 3.4</td>
+   <td>Row 3.5</td>
+ </tr>
+   </tbody>
+   <tfoot>
+ <tr>
+   <td colspan="3">Footer</td>
+ </tr>
+   </tfoot>
+ </table>
+ 
+ ## Табличная верстка
+ 
+ Верстка веб-страницы очень важна для лучшего отображения вашего сайта. Красивая и удобная верстка занимает достаточно много времени.
+ 
+ В настоящее время все современные сайты используют CSS и JavaScript-фреймворки для создания динамической и адаптивной верстки, но все еще можно хорошо сверстать страницу используя таблицы или дивы (`<div>`).
+ 
+ Разберемся, как верстать страницу, используя только HTML и атрибуты.
+ 
+ ### 3 колонки
+ 
+ ```html
+ <table width="100%" border="0">
+   <tr>
+ <td style="background-color:#aaa" width="20%">
+   <b>Main Menu</b><br />
+   HTML<br>
+   PHP<br>
+   PERL...
+ </td>
+ <td style="background-color: #b5dcb3" height="200" width="60%">
+ Technical and Managerial Tutorials
+ </td>
+ <td style="background-color:#aaa" width="20%">
+   <b>Right Menu</b><br>
+   HTML<br>
+   PHP<br>
+   PERL...
+ </td>
+</tr>
+ <table>
+ ```
+ 
+ <table width="100%" border="0">
+   <tr>
+ <td style="background-color:#aaa" width="20%">
+   <b>Main Menu</b><br />
+   HTML<br>
+   PHP<br>
+   PERL...
+ </td>
+ <td style="background-color: #b5dcb3" height="200" width="60%">
+ Technical and Managerial Tutorials
+ </td>
+ <td style="background-color:#aaa" width="20%">
+   <b>Right Menu</b><br>
+   HTML<br>
+   PHP<br>
+   PERL...
+ </td>
+</tr>
+ </table>
+ 
+ ### 3 строки, 2 колонки
+ 
+ ```html
+ <table width="100%" border="0">
+   <tr>
+ <td colspan="2" style="background-color: #b5dcb3">
+   <h1>This is Web Page Main title</h1>
+ </td>
+   </tr>
+   <tr>
+ <td style="background-color: #aaa" width="50">
+   <b>Main Menu</b><br />
+   HTML<br />
+   PHP<br />
+   PERL...
+ </td>
+ <td style="background-color: #eee" width="100" height="200">
+ Technical and Managerial Tutorials
+ </td>
+   </tr>
+   <tr>
+ <td colspan="2" style="background-color: #b5dcb3">
+   Copyright © 2007 Tutorialspoint.com
+ </td>
+   </tr>
+ </table>
+ ```
+ 
+ <table width="100%" border="0">
+   <tr>
+ <td colspan="2" style="background-color: #b5dcb3">
+   <h1>This is Web Page Main title</h1>
+ </td>
+   </tr>
+   <tr>
+ <td style="background-color: #aaa" width="50">
+   <b>Main Menu</b><br />
+   HTML<br />
+   PHP<br />
+   PERL...
+ </td>
+ <td style="background-color: #eee" width="100" height="200">
+ Technical and Managerial Tutorials
+ </td>
+   </tr>
+   <tr>
+ <td colspan="2" style="background-color: #b5dcb3">
+   Copyright © 2007 Tutorialspoint.com
+ </td>
+   </tr>
+ </table>
+ 
+ ### Недостатки табличной верстки
+ 
+ - Таблицы увеличивают размер файла разметки
+ 
+ - Таблицы обычно мешают инкрементной отрисовке страницы, т.е. пройдет много времени, прежде чем пользователь что-либо увидит
+ 
+ - Таблицы мешают копированию текста в некоторых браузерах
+ 
+ - Табличная верстка занимает больше времени, чем верстка с помощью CSS
+ 
+ - Семантически некорректно использовать таблицы для описания внешнего вида, а не контента
+ 
+ - Таблицы усложняют пользование скринридерами
+ 
+ - Табличная верстка делает дизайн менее гибким и изменяемым
 
 #### Изображения
 
