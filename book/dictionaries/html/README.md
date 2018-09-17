@@ -15,7 +15,5 @@
 - [Таблицы](html_tables.md)
 - [Списки](html_lists.md)
 - [Блоки](html_blocks.md)
-
 - [Фреймы](html_iframes.md)
-- [Элемент head](html_head.md)
 - [Формы](html_forms.md)

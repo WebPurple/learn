@@ -66,7 +66,6 @@
         -   [Списки](dictionaries/html/html_lists.md)
         -   [Блоки](dictionaries/html/html_blocks.md)
         -   [Фреймы](dictionaries/html/html_iframes.md)
-        -   [Элемент head](dictionaries/html/html_head.md)
         -   [Формы](dictionaries/html/html_forms.md)
 
     -   [CSS](dictionaries/css/README.md)
