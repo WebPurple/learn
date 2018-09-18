@@ -2,18 +2,6 @@ tags: css, advanced
 
 # CSS
 
-## Clip-path
-
-[Это свойство](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path) определяет область элемента, которая должна быть показана. Вырезаемая область определяется или URL, относящимся к SVG, или формой, например, [circle()](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle).
-
-[Конструктор](https://bennettfeely.com/clippy/).
-
-## Mask
-
-Альтернативный способ вырезать область - [свойство `mask`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask). Оно также [не поддерживается в IE, Edge и Opera](https://caniuse.com/#search=mask).
-
-[example](http://jsbin.com/kigepuzezo/edit?html,css,output)
-
 ## Function
 
 В CSS существует множество функций:
