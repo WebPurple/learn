@@ -61,7 +61,12 @@
         -   [Цитаты](dictionaries/html/html_quotation.md)
         -   [Комментарии](dictionaries/html/html_comments.md)
         -   [Ссылки](dictionaries/html/html_links.md)
-        -   [](dictionaries/html/)
+        -   [Изображения](dictionaries/html/html_images.md)
+        -   [Таблицы](dictionaries/html/html_tables.md)
+        -   [Списки](dictionaries/html/html_lists.md)
+        -   [Блоки](dictionaries/html/html_blocks.md)
+        -   [Фреймы](dictionaries/html/html_iframes.md)
+        -   [Формы](dictionaries/html/html_forms.md)
 
     -   [CSS](dictionaries/css/README.md)
         -   [Способы добавления стилей на страницу, базовый синтаксис. Валидация](dictionaries/css/css_syntax/css_syntax.md)

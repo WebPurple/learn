@@ -30,7 +30,7 @@ _Ссылкой не обяхательно должен быть текст. С
 <a href="learn/dictionaries/instruments/">Инструменты</a>
 ```
 
-> <a href="https://webpurple.github.io/learn/dictionaries/instruments/">Инструменты</a>
+> [Инструменты](../instruments/README.md)
 
 ## Атрибут `target`
 
