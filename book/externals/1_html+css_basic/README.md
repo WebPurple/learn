@@ -1,4 +1,4 @@
-# Лекция 9
+# HTML+CSS basic
 
 Узнаем об основах HTML и CSS
 
