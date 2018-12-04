@@ -96,4 +96,7 @@
         -   [AJAX](dictionaries/javascript/15-ajax.md)
         -   [Модуль Math](dictionaries/javascript/16-math.md)
 
+-   [Лекции](lectures/README.md)
+    -   [Нереляционные базы данных](lectures/nosql/README.md)
+
 -   [Тэги](tags.md)
