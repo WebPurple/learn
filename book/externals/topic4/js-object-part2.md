@@ -60,7 +60,7 @@ for (var key in obj1) {
 ```js
 for (var key in obj1) {
     if (obj1.hasOwnPropery(key)) {
-        console.log(key); // c ,a, b
+        console.log(key); // c
     }
 }
 ```
