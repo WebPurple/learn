@@ -115,7 +115,7 @@ var key = 'myProp';
 
 obj.myProp; // 100
 obj['myProp']; // 100
-obj[1]; // 100
+obj[1]; // 200
 obj[key]; // 100
 ```
 
