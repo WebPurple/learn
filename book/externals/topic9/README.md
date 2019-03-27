@@ -29,4 +29,4 @@
 -   [Grid gaps](css-fundamentals-part1.md#grid-gaps)
 -   [Единица fr](css-fundamentals-part1.md#единица-fr)
 
-## [Задания](https://github.com/WebPurple/external-courses/tree/master/src/ex9_html-css-fundamentals-part1-part1/README.md)
+## [Задания](https://github.com/WebPurple/external-courses/tree/master/src/ex9_html-css-fundamentals-part1/README.md)
