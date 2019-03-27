@@ -4,20 +4,7 @@
     "title": "WebPurple Learn Book",
     "description": "Learn JS with WebPurple",
     "root": "./book",
-    "plugins": [
-        "exercises@git+https://github.com/ifedyukin/plugin-exercises.git",
-        "tags@git+https://github.com/ifedyukin/gitbook-plugin-tags.git",
-        "toggle-chapters@git+https://github.com/ifedyukin/gitbook-plugin-toggle-chapters",
-        "slides-integration",
-        "include",
-        "multipart",
-        "advanced-emoji",
-        "anchors",
-        "lunr",
-        "edit-link",
-        "-sharing",
-        "-fontsettings"
-    ],
+    "plugins": [],
     "styles": {
         "website": "assets/webpurple.css"
     },
