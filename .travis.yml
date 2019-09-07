@@ -3,13 +3,12 @@ node_js:
   - "lts/*"
 script:
   - npm run build
-  - cp -R book/assets/images _book/gitbook
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
-  local-dir: _book
+  local-dir: public
   project-name: "WebPurple Learn Book"
   on:
     branch: master
