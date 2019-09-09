@@ -5,9 +5,7 @@ order: 1
 ---
 # Нереляционные базы данных
 ## Слайды
-{% slides %}
-./slides.html
-{% endslides %}
+<iframe src="//slides.com/ifedyukin/nosql_mongodb/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Практика
 ### Дополнительные ссылки
