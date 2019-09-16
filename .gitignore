@@ -5,5 +5,8 @@ node_modules
 package-lock.json
 Thumbs.db
 *.log
+.cache/
+public/
+static/admin/*.bundle.*
 /etc/
 .idea
