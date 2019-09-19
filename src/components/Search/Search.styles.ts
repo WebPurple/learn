@@ -12,21 +12,43 @@ const StyledForm = styled.form`
   top: 50%;
   transform: translate(-100%, -50%);
   background-color: transparent;
-  transition: margin-left 0.3s;
+  transition: all 0.3s;
   z-index: 1002;
+  width: 5.2rem;
 
   &.focused {
     background-color: ${colorLiliac};
+    width: 100%;
+    left: 0;
+    top: 0;
+    transform: none;
+    height: 6rem;
+    margin: 0;
+    border-radius: 0;
   }
+
+  ${media.phone`
+    width: auto;
+    &.focused {
+      width: auto;
+      left: 100%;
+      top: 50%;
+      transform: translate(-100%, -50%);
+      height: auto;
+      margin-left: -6rem;
+      border-radius: 3px;
+    }
+  `}
 
   ${media.tablet`
     transform: translate(-100%, 0);
     top: 4rem;
     margin-left: -2rem;
-  `}
-  ${media.desktop`
-    top: 50%;
-    transform: translate(-100%, -50%);
+    &.focused {
+      top: 4rem;
+      transform: translate(-100%, 0);
+      margin-left: -2rem;
+    }
   `}
 `;
 

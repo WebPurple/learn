@@ -19,8 +19,8 @@ export const StyledUl = styled.ul`
       margin: 0;
       flex-direction: row;
     `}
-  ${media.desktop`
-      margin: 0 4rem;
+    ${media.desktop`
+      margin: 0 0 0 -2rem;
     `}
 `;
 
