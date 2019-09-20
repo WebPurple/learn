@@ -3,6 +3,7 @@ node_js:
   - "lts/*"
 script:
   - npm run build
+  - echo "learn.webpurple.net" > public/CNAME
 deploy:
   provider: pages
   skip-cleanup: true
