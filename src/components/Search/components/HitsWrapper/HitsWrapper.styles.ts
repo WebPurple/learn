@@ -2,18 +2,23 @@ import styled from 'styled-components';
 import { media, colorWarmPurple, colorLiliac, colorVividPurple } from '../../../../utils/css-utils';
 
 export const HitsWrapperAnchor = styled.div`
-  position: relative;
-  height: 4rem;
+  position: absolute;
+  top: 4.5rem;
+
+  ${media.phone`
+    position: relative;
+    height: 4rem;
+    top: 0;
+  `}
 `;
 
 export const HitsWrapperContainer = styled.div`
   position: absolute;
   top: 100%;
-  left: 5rem;
-  transform: translateX(-100%);
 
   ${media.phone`
     left: 0;
+    transform: translateX(-100%);
   `}
 `;
 
@@ -49,13 +54,16 @@ export const HitsWrapperUl = styled.ul`
   background-color: ${colorWarmPurple};
   position: relative;
   max-height: 60vh;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   border: 2px solid ${colorWarmPurple};
-  border-radius: 3px;
+  border-radius: 0;
   padding: 1rem;
   width: 100vw;
 
   ${media.phone`
+    border-radius: 3px;
+
     width: 50rem;
   `}
 

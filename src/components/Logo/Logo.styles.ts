@@ -6,10 +6,11 @@ export const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  min-width: 30rem;
+  width: 20rem;
   z-index: 1001;
   ${media.phone`
     margin-left: 2rem;
+    width: 30rem;
   `}
   ${media.desktop`
     margin-left: 0;

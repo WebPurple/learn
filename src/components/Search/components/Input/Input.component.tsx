@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { getQuery, searchDelay, searchClient, minCharsNumber } from '../../../../utils/search';
 import useDebounce from '../../../../utils/Debounce';
 import SearchIcon from '../SearchIcon/SearchIcon.component';
-import InputComponent, { GetInputOnChange } from './Input.interfaces';
+import InputComponent, { GetInputOnChange, OnKeyDown } from './Input.interfaces';
 import getClassName from '../../../../utils/getClassName';
 import { FOCUSED_CLASS_NAME } from '../../../../constants/furtherClassNames';
 import { Label, StyledInput } from './Input.styles';
@@ -23,6 +23,13 @@ const Input: InputComponent = ({ setQuery, query, setIsSearching, setHits, setFo
   const onChange = getOnChange(setQuery, setHits);
   const onFocus = (): void => setFocus(true);
 
+  const onKeyDown: OnKeyDown = ({ keyCode, currentTarget }) => {
+    if (keyCode === 27) {
+      setFocus(false);
+      currentTarget.blur();
+    }
+  };
+
   useEffect(() => {
     if (debouncedValue && value.length >= minCharsNumber) {
       setIsSearching(true);
@@ -37,7 +44,7 @@ const Input: InputComponent = ({ setQuery, query, setIsSearching, setHits, setFo
   return (
     <Label>
       <SearchIcon />
-      <StyledInput placeholder="Search..." {...{ value, onChange, onFocus, className }} />
+      <StyledInput placeholder="Search..." {...{ value, onChange, onFocus, className, onKeyDown }} />
     </Label>
   );
 };
