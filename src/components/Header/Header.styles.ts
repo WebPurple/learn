@@ -11,12 +11,6 @@ const StyledHeader = styled.header`
     justify-content: center;
     padding: 4rem 2rem;
   `}
-
-  ${media.desktop`
-    padding: 4rem 8.6rem;
-    flex-direction: row;
-    justify-content: flex-start;
-  `}
 `;
 
 export default StyledHeader;

@@ -7,6 +7,7 @@ interface SearchQuery {
 }
 
 export type SetSearchQuery = React.Dispatch<React.SetStateAction<SearchQuery>>;
+export type OnKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => void;
 
 export type GetInputOnChange = (
   setQuery: SetSearchQuery,
