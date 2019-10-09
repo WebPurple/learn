@@ -35,7 +35,6 @@
         -   [Контекст в JavaScript](externals/topic14/js-context.md)
     -   [Тема 15](externals/topic15/README.md)
         -   [ООП в JavaScript](externals/topic15/js-oop.md)
-    -   [Slides PoC](externals/slides-poc/README.md)
 
 -   [Справочники](dictionaries/README.md)
 
