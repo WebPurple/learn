@@ -31,7 +31,7 @@ const StyledMask = styled.div`
   }
 
   ${media.tablet`
-    background: linear-gradient(to right, transparent, #fff);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff);
     &:after {
       display: none;
     }

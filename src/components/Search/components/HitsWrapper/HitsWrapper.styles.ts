@@ -39,13 +39,13 @@ export const HitsWrapperFrame = styled.div`
   }
   &:before {
     top: 0;
-    background: linear-gradient(${colorWarmPurple} 15%, transparent);
+    background: linear-gradient(${colorWarmPurple} 15%, rgba(102, 45, 145, 0));
   }
   &:after {
     margin-top: -7rem;
     top: 100%;
     transform: translateY(-100%);
-    background: linear-gradient(transparent, ${colorWarmPurple} 85%);
+    background: linear-gradient(rgba(102, 45, 145, 0), ${colorWarmPurple} 85%);
   }
 `;
 
