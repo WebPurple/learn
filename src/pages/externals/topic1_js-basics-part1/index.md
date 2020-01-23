@@ -1,5 +1,5 @@
 ---
-title: Тема 1
+title: Тема 1. Основы JavaScript. Часть 1
 templateKey: 'article-page'
 order: 1
 ---
