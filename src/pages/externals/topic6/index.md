@@ -12,3 +12,4 @@ order: 6
 -   <gatsby-link to="/externals/topic6/git#коммиты">Коммиты</gatsby-link>
 -   <gatsby-link to="/externals/topic6/git#ветви">Ветви</gatsby-link>
 -   <gatsby-link to="/externals/topic6/git#онлайн-репозитории">Онлайн-репозитории</gatsby-link>
+-   <gatsby-link to="/externals/topic6/git#ssh-key">SSH key</gatsby-link>
