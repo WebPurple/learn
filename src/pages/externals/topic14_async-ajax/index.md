@@ -1,13 +1,13 @@
 ---
-title: Тема 12
+title: Тема 14. Асинхронность, AJAX
 templateKey: 'article-page'
-order: 12
+order: 14
 ---
-# События
+# Асинхронность, AJAX
 
 ## Содержание
 
--   <gatsby-link to="/externals/topic12/events#события">Определение событий</gatsby-link>
--   <gatsby-link to="/externals/topic12/events#обработчики-событий">Обработчики событий</gatsby-link>
--   <gatsby-link to="/externals/topic12/events#объект-события">Объект события</gatsby-link>
--   <gatsby-link to="/externals/topic12/events#порядок-срабатывания-обработчиков">Порядок срабатывания обработчиков</gatsby-link>
+-   <gatsby-link to="/externals/topic14_async-ajax/events#события">Определение событий</gatsby-link>
+-   <gatsby-link to="/externals/topic14_async-ajax/events#обработчики-событий">Обработчики событий</gatsby-link>
+-   <gatsby-link to="/externals/topic14_async-ajax/events#объект-события">Объект события</gatsby-link>
+-   <gatsby-link to="/externals/topic14_async-ajax/events#порядок-срабатывания-обработчиков">Порядок срабатывания обработчиков</gatsby-link>

@@ -1,13 +1,13 @@
 ---
-title: Тема 12
+title: Тема 13. События
 templateKey: 'article-page'
-order: 12
+order: 13
 ---
 # События
 
 ## Содержание
 
--   <gatsby-link to="/externals/topic12/events#события">Определение событий</gatsby-link>
--   <gatsby-link to="/externals/topic12/events#обработчики-событий">Обработчики событий</gatsby-link>
--   <gatsby-link to="/externals/topic12/events#объект-события">Объект события</gatsby-link>
--   <gatsby-link to="/externals/topic12/events#порядок-срабатывания-обработчиков">Порядок срабатывания обработчиков</gatsby-link>
+-   <gatsby-link to="/externals/topic13_events/events#события">Определение событий</gatsby-link>
+-   <gatsby-link to="/externals/topic13_events/events#обработчики-событий">Обработчики событий</gatsby-link>
+-   <gatsby-link to="/externals/topic13_events/events#объект-события">Объект события</gatsby-link>
+-   <gatsby-link to="/externals/topic13_events/events#порядок-срабатывания-обработчиков">Порядок срабатывания обработчиков</gatsby-link>
