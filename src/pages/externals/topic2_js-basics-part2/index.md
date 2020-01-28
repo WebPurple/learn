@@ -2,7 +2,6 @@
 title: Тема 2. Основы JavaScript. Часть 2
 templateKey: 'article-page'
 order: 2
-contentPath: 
 ---
 <!--  -->
 # Основы JavaScript. Часть 2
