@@ -172,6 +172,20 @@ const makeJohnSayHello = saySomething.bind(man, 'Hello!');
 makeJohnSayHello(); // => 'John Snow: "Hello!"'
 ```
 
+При этом нужно понимать, что если выполнить привяку к функции, которая **уже** является результатом привязки контекста другой функции - то это не будет иметь эффекта:
+
+```javascript
+function say(text) {
+  console.log(`${this.name}: "${text}"`);
+}
+
+const sayAsJohn = say.bind({ name: 'John' });
+sayAsJohn('Hello!'); // => 'John: "Hello!"'
+
+const sayAsNedInstead = sayAsJohn.bind({ name: 'Ned' });
+sayAsNedInstead('Winter is coming!'); // John: "Winter is coming!"
+```
+
 > **Важно!** Стрелочные функции ___не содержат___ собственный контекст `this`, а используют значение `this` окружающего контекста.
 
 В следующем примере используется эта особенность, чтобы создать простой счётчик, который каждую секунду выводит число увеличенное на 1:
