@@ -89,34 +89,115 @@ bmw = {
 
 ## Значение `this`
 
-Значение this устанавливается в зависимости от того, как вызвана функция.
-
-При вызове функции как метода:
+Ключевое слово `this` во время вызова функции хранит ссылку на объект, для которого эта функция была вызвана в качестве метода. Так можно получить доступ к другим свойствам этого объекта:
 
 ```javascript
-obj.func(...) // this = obj
-obj["func"](...)
+const man = { // man – это объект
+  name: 'John Snow', // свойство name объекта man
+
+  say: function(thoughts) { // say – это метод объекта man
+    console.log(this.name + ': "' + thoughts + '"');
+  }
+};
+
+man.say('Winter is coming!'); // => 'John Snow: "Winter is coming!"'
 ```
 
-При обычном вызове:
+В случае, когда функция вызывается сама по себе, а **не** как метод объекта, тогда есть два варианта поведения:
+- Ключевое слово `this` будет ссылаться на глобальный объект `window`
+- Если используется строгий режим (`'use strict'`) – `this` будет иметь значение `undefined`
 
 ```javascript
-func(...) // this = window (ES3) /undefined (ES5)
+function carelessFunction() {
+  console.log(this);
+}
+
+function strictFunction() {
+  'use strict';
+  console.log(this);
+}
+
+carelessFunction(); // => Window {parent: Window, opener: null, top: Window, length: 0, frames: Window, …}
+strictFunction(); // => undefined
 ```
 
-В new:
+Когда мы создаём объект через функцию коструктор с использованием ключевого слова `new`, `this` будет указывать на новый пустой объект, который в последствии будет модифицирован этой функцией:
 
 ```javascript
-new func(); // this = {} (новый объект)
+function Square(side) {
+  this.side = side;
+}
+
+// Следующие две строчки делают одно и то же
+const square1 = new Square(2);
+const square2 = Square.call({}, 2); // на этот пустой объект, переданный первым параметром в функцию call, будет ссылаться this
+
+console.log(square1.side === square2.side); // => true
 ```
 
-Явное указание:
+Как можно было заметить в предыдущем примере, мы можем явно задавать контекст `this` при помощи функций `apply` и `call`. Обе эти функции заставляют целевую функцию вызываться с привязанным котекстом и параметрами. Они отличаются лишь способом передачи аргументов:
 
 ```javascript
-func.apply(context, args) // this = context (явная передача)
-func.call(context, arg1, arg2, ...)
+const context = { title: 'Explicit context object' }
+
+const firstArgument = 'first argument';
+const secondArgument = 2;
+const thirdArgument = true;
+
+const argumentsArray = [firstArgument, secondArgument, thirdArgument];
+
+func.apply(context, argumentsArray); // this = context (явная передача)
+func.call(context, firstArgument, secondArgument, thirdArgument);
 ```
 
-Также стоит упомянуть встроенные метод `bind`, позволяющий привязать контекст.
+Также стоит упомянуть встроенный метод `bind`, позволяющий привязать контекст. Этот метод не вызывает функцию сразу. Вместо этого он возвращает новую функцию-обёртку с уже привязвнным контекстом:
 
-[Подробнее о контексте](https://learn.javascript.ru/objects-more).
+```javascript
+const man = {
+  name: 'John Snow',
+};
+
+function saySomething(thoughts) {
+  if (this && this.name) {
+    console.log(this.name + ': "' + thoughts + '"');
+  } else {
+    console.log(thoughts);
+  }
+}
+
+const makeJohnSaySomething = saySomething.bind(man);
+makeJohnSaySomething('Winter is coming!'); // => 'John Snow: "Winter is coming!"'
+
+const makeJohnSayHello = saySomething.bind(man, 'Hello!');
+makeJohnSayHello(); // => 'John Snow: "Hello!"'
+```
+
+> **Важно!** Стрелочные функции ___не содержат___ собственный контекст `this`, а используют значение `this` окружающего контекста.
+
+В следующем примере используется эта особенность, чтобы создать простой счётчик, который каждую секунду выводит число увеличенное на 1:
+
+```javascript
+function Counter() {
+  this.value = 0;
+
+  this.start = function() {
+    const incrementAndLog = () => {
+      this.value++;
+      console.log(this.value);
+    };
+    setInterval(incrementAndLog, 1000);
+  }
+}
+
+const counter = new Counter();
+counter.start();
+// => 1
+// => 2
+// => 3
+// => 4
+// ...
+```
+
+### Полезные ссылки:
+- [Подробнее о контексте](https://learn.javascript.ru/objects-more).
+- [Подробнее про ключевое слово `this`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/this).

@@ -74,7 +74,7 @@ sum.length; // 3
 
 **Арность** (arity) – количество параметров у функции
 
-Для доступа к аргементам может также использоваться псевдомассив (объект, у которого числовые имена(ключи) свойств и есть свойство `length`) аргументов "arguments".
+Для доступа к аргументам может также использоваться псевдомассив (объект, у которого числовые имена(ключи) свойств и есть свойство `length`) аргументов `arguments`.
 
 Он содержит список аргументов по номерам: `arguments[0]`, `arguments[1]` и т.д., а также свойство `length`. [Подробнее](https://learn.javascript.ru/arguments-pseudoarray).
 
@@ -165,7 +165,7 @@ console.log(a); // 10
 console.log(b); // Uncaught ReferenceError: b is not defined
 ```
 
-В примере переменная `a` – глобальная, доступна(видна) в любом месте программы, а переменная `b` - локальная для функции f и доступна(видна) только внутри функции и недоступна снаружи функции.
+В примере переменная `a` – глобальная, доступна(видна) в любом месте программы, а переменная `b` - локальная для функции `f` и доступна(видна) только внутри функции и недоступна снаружи функции.
 
 При этом, важно понимать, что аргументы, которые ожидает получить функция, также явлюятся её локальными переменными:
 
@@ -266,42 +266,9 @@ g(); // 10
 
 [См. подробнее о замыканиях](https://learn.javascript.ru/functions-closures).
 
-## Ключевое слово `this`
-
-Ключевое слово `this` во время вызова функции хранит ссылку на объект, для которого эта функция была вызвана в качестве метода. Так можно получить доступ к другим свойствам этого объекта:
-
-```javascript
-const man = { // man – это объект
-  name: 'John Snow', // свойство name объекта man
-
-  say: function(thoughts) { // say – это метод объекта man
-    console.log(this.name + ': "' + thoughts + '"');
-  }
-};
-
-man.say('Winter is coming!'); // => 'John Snow: "Winter is coming!"'
-```
-
-В случае, когда функция вызывается сама по себе, а **не** как метод объекта, тогда есть два варианта поведения:
-- Ключевое слово `this` будет ссылаться на глобальный объект `window`
-- Если используется строгий режим (`'use strict'`) – `this` будет иметь значение `undefined`
-
-```javascript
-function carelessFunction() {
-  console.log(this);
-}
-
-function strictFunction() {
-  'use strict';
-  console.log(this);
-}
-
-carelessFunction(); // => Window {parent: Window, opener: null, top: Window, length: 0, frames: Window, …}
-strictFunction(); // => undefined
-```
-[См. подробнее про ключевое слово `this`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/this).
-
 ## Стрелочные функции
+
+> **На заметку**: Стрелочные функции были введены в [**ES2015**](https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015).
 
 С помощью **Function Expression** мы также можем объявить стрелочную функцию - **Arrow Function**.
 
@@ -337,31 +304,6 @@ const fatBodyArrowFunction = (a, b, c) => {
 ```javascript
 const func = () => console.log(arguments);
 func() // Uncaught ReferenceError: arguments is not defined
-```
-
-**Важно!** Стрелочные функции ___не содержат___ собственный контекст `this`, а используют значение `this` окружающего контекста.
-
-В следующем примере используется эта особенность, чтобы создать простой счётчик, который каждую секунду выводит число увеличенное на 1:
-
-```javascript
-function Counter() {
-  this.value = 0;
-
-  this.start = function() {
-    setInterval(() => {
-      this.value++;
-      console.log(this.value);
-    }, 1000);
-  }
-}
-
-const counter = new Counter();
-counter.start();
-// => 1
-// => 2
-// => 3
-// => 4
-// ...
 ```
 
 [См. подробнее про стрелочные функции](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
