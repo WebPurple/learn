@@ -13,5 +13,6 @@ order: 6
 -   <gatsby-link to="/externals/topic6_js-function/js-function#функция-и-процедура">Функция и процедура</gatsby-link>
 -   <gatsby-link to="/externals/topic6_js-function/js-function#область-видимости">Область видимости</gatsby-link>
 -   <gatsby-link to="/externals/topic6_js-function/js-function#замыкание">Замыкание</gatsby-link>
+-   <gatsby-link to="/externals/topic6_js-function/js-function#стрелочные-функции">Стрелочные функции</gatsby-link>
 
 ## [Задания](https://github.com/WebPurple/external-courses/tree/master/src/ex5_js-functions/README.md)
