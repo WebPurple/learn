@@ -51,7 +51,7 @@ order: 10
 Page Title.
 Also used as Page main Header 
 
-![title](title.png)
+![title](contributing/title.png)
 
 ### templateKey 
 
@@ -77,7 +77,7 @@ Title of a navigation Link to the Page.
 
 If not defined, used **title**
 
-![navTitle](navTitle.png)
+![navTitle](contributing/navTitle.png)
 
 ### order
 
@@ -87,7 +87,7 @@ The number in order the page link should be displayed in navigation.
 
 You have to define this option if order is important
 
-![order](order.png)
+![order](contributing/order.png)
 
 ### isNavRoot
 
@@ -101,4 +101,4 @@ When navigation bar is being rendering on some page, it finds the closest parent
 
 Navigation starts from `/dictionaries`. Not from `/`
 
-![isNavRoot](isNavRoot.png)
+![isNavRoot](contributing/isNavRoot.png)
