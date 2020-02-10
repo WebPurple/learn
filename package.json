@@ -6,25 +6,24 @@
     "clean": "rimraf .cache public",
     "start:app": "npm run develop",
     "start:lambda": "netlify-lambda serve src/lambda",
-    "start": "run-p start:**",
+    "start": "run-p start:app",
     "build:app": "npm run clean && gatsby build",
     "build:lambda": "netlify-lambda build src/lambda",
-    "build": "run-p build:**",
+    "build": "run-p build:app",
     "develop": "npm run clean && gatsby develop",
     "serve": "gatsby serve",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webpurple/learn.git"
   },
-  "author": "Igor Fedyukin <Igor_Fedyukin@epam.com>",
+  "author": "WebPurple community",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/webpurple/learn/issues"
   },
-  "homepage": "https://github.com/webpurple/learn#readme",
+  "homepage": "https://learn.webpurple.net",
   "dependencies": {
     "@types/react-helmet": "^5.0.8",
     "@types/react-instantsearch-dom": "^5.2.5",
