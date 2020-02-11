@@ -1,7 +1,21 @@
 # Contributing WebPurple Learn
 
+## Contents 
+
+ - [Workflow](#Workflow)
+ - [Materials Pages Configuration](#Materials-Pages-Configuration)
+   - [Page config example](#Page-config-example:)
+   - [title](#title)
+   - [templateKey](#templateKey)
+   - [navTitle](#navTitle)
+   - [order](#order)
+   - [isNavRoot](#isNavRoot)
+ - [Using internal site links in `.md` files](#Using-internal-site-links-in-md-files)
+
 Thanks for taking the time to contribute!🎉
 You can find a list of issues you can work on [here](https://github.com/WebPurple/learn/issues). Feel free to create new ones.
+
+## Workflow
 
 In general, the contribution workflow looks like this:
 
@@ -46,7 +60,7 @@ order: 10
 ---
 ```
 
-## what does each of the options mean
+### What does each of the options mean:
 
 ### title
 
@@ -106,3 +120,19 @@ When navigation bar is being rendering on some page, it finds the closest parent
 Navigation starts from `/dictionaries`. Not from `/`
 
 ![isNavRoot](contributing/isNavRoot.png)
+
+
+## Using internal site links in `.md` files
+
+If you add an internal site link to materials (for example, link to another materials on the site), **DON`T** use simple link as 
+```md
+[linkTitle](https://...)
+```
+
+It renders into simple tag `<a>` and disable static navigation (page reloads when you follow that link)
+
+Use the following construct instead: 
+
+```md
+<gatsby-link to="/[some relative path]">link title</gatsby-link>
+```
