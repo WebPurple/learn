@@ -7,11 +7,15 @@ In general, the contribution workflow looks like this:
 
 1. Fork the repo.
 
-2.
-- If you add new materials, update existing or fix issues related with it, create a new feature branch based off the `feature/materials` branch
-- If you fix general bugs, update the App styles or dependencies - off the `master` branch
+2. Create a new feature branch based off the `master` branch.
+
+*Branch name examples*:
+- `feature/materials`
+- `feature/algolia-search`
 
 3. Submit a pull request, referencing any issues it addresses.
+
+To create commit messages use general [commits convention](https://www.conventionalcommits.org/en/v1.0.0/)
 
 Please try to keep your pull request focused in scope and avoid including unrelated commits.
 
@@ -42,7 +46,7 @@ order: 10
 ---
 ```
 
-## How to understand every point
+## what does each of the options mean
 
 ### title
 
