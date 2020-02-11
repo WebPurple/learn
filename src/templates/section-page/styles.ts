@@ -25,7 +25,7 @@ const SectionGlobalStyle = createGlobalStyle`
   }
 
   .gatsby-dnmcl-nav-list {
-    list-style: decimal;
+    list-style: none;
     display: inline-block;
     font-size: 3.2rem;
 
