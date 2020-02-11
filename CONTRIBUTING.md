@@ -129,7 +129,7 @@ If you add an internal site link to materials (for example, link to another mate
 [linkTitle](https://...)
 ```
 
-It renders into simple tag `<a>` and disable static navigation (page reloads when you follow that link)
+It is rendered as simple tag `<a>` and disable static navigation (page reloads when you follow that link)
 
 Use the following construct instead: 
 
