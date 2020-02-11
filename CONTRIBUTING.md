@@ -4,7 +4,7 @@
 
  - [Workflow](#Workflow)
  - [Materials Pages Configuration](#Materials-Pages-Configuration)
-   - [Page config example](#Page-config-example:)
+   - [Page config example](#Page-config-example)
    - [title](#title)
    - [templateKey](#templateKey)
    - [navTitle](#navTitle)
