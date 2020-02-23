@@ -79,7 +79,15 @@ HTML-теги представляют собой ключевые слова, �
 
 Заголовки позволяют разделить текст на секции.
 
-[example](http://jsbin.com/fezoca/edit?html,output)
+```html
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+<h5>Header 5</h5>
+<h6>Header 6</h6>
+```
+[Пример](http://jsbin.com/fezoca/edit?html,output)
 
 #### Списки
 
@@ -87,25 +95,110 @@ HTML-теги представляют собой ключевые слова, �
 
 Тег `<ul>` создает маркированный список. Каждый элемент списка должен быть заключен в парный тег `<li>`.
 
-[example](http://jsbin.com/qacuca/edit?html,output)
+```html
+<ul>
+  <li>Bread</li>
+  <li>Pizza
+    <ul>
+      <li>lorum</li>
+      <li>lorum</li>
+      <li>lorum</li>
+      <li>lorum</li>
+      <li>lorum</li>
+    </ul>
+  </li>
+  <li>Tomato</li>
+  <li>Cucumber</li>
+</ul>
+```
+
+<ul>
+  <li>Bread</li>
+  <li>Pizza
+    <ul>
+      <li>lorum</li>
+      <li>lorum</li>
+      <li>lorum</li>
+      <li>lorum</li>
+      <li>lorum</li>
+    </ul>
+  </li>
+  <li>Tomato</li>
+  <li>Cucumber</li>
+</ul>
 
 ##### Нумерованный список
 
 Тег `<ol>` создает нумерованный список. Каждый элемент списка должен быть заключен в парный тег `<li>`.
 
-[example](http://jsbin.com/kakuhu/edit?html,output)
+```html
+<ol>
+  <li>Pizza</li>
+  <li>Hamburger</li>
+  <li>Chips</li>
+  <li>Pie</li>
+</ol>
+```
+<ol>
+  <li>Pizza</li>
+  <li>Hamburger</li>
+  <li>Chips</li>
+  <li>Pie</li>
+</ol>
 
 ##### Cписок определений
 
 Тег `<dl>` создает список определений. Он включает тег `<dt>`, т.е. сам термин, и тег `<dd>`, т.е. определение термина.
-
-[example](http://jsbin.com/lafune/edit?html,output)
+```html
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+  
+  <dt>JS</dt>
+  <dd>JavaScript</dd>
+</dl>
+```
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+  <dt>JS</dt>
+  <dd>JavaScript</dd>
+</dl>
 
 ##### Вложенные списки
 
 Списки могут быть вложенными.
-
-[example](http://jsbin.com/segiyu/edit?html,output)
+```html
+<ol>
+  <li>Hamburger</li>
+  <li>Pizza
+    <ul>
+      <li>Tomato</li>
+      <li>Cheese</li>
+      <li>Sausage</li>
+    </ul
+  </li>
+  <li>Chips</li>
+  <li>Pie</li>
+</ol>
+```
+<ol>
+  <li>Hamburger</li>
+  <li>Pizza
+    <ul>
+      <li>Tomato</li>
+      <li>Cheese</li>
+      <li>Sausage</li>
+    </ul
+  </li>
+  <li>Chips</li>
+  <li>Pie</li>
+</ol>
 
 #### Блоки
 
@@ -114,314 +207,338 @@ HTML-теги представляют собой ключевые слова, �
 ##### Division
 
 Тег `<div>` (division) обозначает блочный элемент и предназначен для выделения части контента для его [стилизации](css-basics).
-
-[example](http://jsbin.com/bocusa/edit?html,css,output)
+```html
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum, ligula vitae rhoncus elementum, justo orci lacinia diam, vitae egestas mi dolor nec dui. Vivamus scelerisque dui quis mattis finibus. Curabitur erat velit, bibendum eu odio non, malesuada efficitur dolor. Morbi in vestibulum justo.
+</div>
+```
+```css
+div {
+  width: 300px;
+  background-color: lightgreen;
+}
+```
+<div style='width: 300px;background-color: lightgreen'>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dictum, ligula vitae rhoncus elementum, justo orci lacinia diam, vitae egestas mi dolor nec dui. Vivamus scelerisque dui quis mattis finibus. Curabitur erat velit, bibendum eu odio non, malesuada efficitur dolor. Morbi in vestibulum justo.
+</div>
 
 ##### Параграф
 
 Тег `<p>` определяет параграф текста. По умолчанию параграфы разделены небольшими отступами, называемыми margin.
 
-[example](http://jsbin.com/yuqemon/edit?html,output)
+[Пример](http://jsbin.com/yuqemon/edit?html,output)
 
 ##### Горизонтальная линия
 
 Тег `<hr>` (horizontal rule) добавляет горизонтальную линию. Не имеет закрывающего тега.
+```html
+<p>One</p>
+<hr>
+<p>Two</p>
+<hr>
+```
+<p>One</p>
+<hr>
+<p>Two</p>
+<hr>
 
-[example](http://jsbin.com/yucove/edit?html,output)
+##### Изображения
 
-#### Таблицы
+Для вставки изображений используется тег `<img>`. Источник изображения определяется атрибутом `src`, текст, показываемый при отсутствии изображения, определяется атрибутом `alt`.
+
+[Пример](http://jsbin.com/xivuli/edit?html,output)
+
+##### Формы
+
+Формы предназначены для ввода пользовательской информации и ее сохранения. Подробнее в [лекции № 11](../topic11).
+
+##### Форматирование текста
+
+Большинство данных тегов больше не используются. Для этой цели обычно используется CSS.
+
+[Пример 1](http://jsbin.com/wubitu/edit?html,output)
+
+[Пример 2](http://jsbin.com/wowaza/edit?html,output)
+
+##### Ссылки
+
+Для создания ссылок в документе служит тег `<a>`. Атрибут `href` определяет адрес документа, на который следует перейти, `name` устанавливает имя якоря внутри документа.
+```html
+<a href="https://www.webpurple.net/">Our WebPurple Community</a>
+```
+<a href="https://www.webpurple.net/">Our WebPurple Community</a>
+
+### Таблицы
 
 В HTML для создания таблицы используется тег `<table>`. Строки таблицы создаются с помощью тега `<tr>`, ячейки - `<td>`.
 
 Например:
 
 ```html
-  <table border="1">
+<table border="1">
   <tr>
-<td>Table cell 1</td>
-<td>Table cell 2</td>
+    <td>Table cell 1</td>
+    <td>Table cell 2</td>
   </tr>
-  </table>
+</table>
 ```
 
- <table border="1">
-   <tr>
- <td>Table cell 1</td>
- <td>Table cell 2</td>
-   </tr>
- </table>
- 
- ### Заголовки
- 
- Многие таблицы имеют заголовки. В HTML для этого используется тег `<th>`.
- 
- ```html
-   <table border="1">
- <tr>
-   <th>Table header</th><th>Table header</th>
- </tr>
- <tr>
-   <td>Table cell 1</td><td>Table cell 2</td>
- </tr>
-   </table>
- ```
- 
-   <table border="1">
- <tr>
-   <th>Table header</th><th>Table header</th>
- </tr>
- <tr>
-   <td>Table cell 1</td><td>Table cell 2</td>
- </tr>
-   </table>
- 
- ### Colspan, rowspan
- 
- Для того, чтобы ячейка таблицы объединяла несколько столбцов, используется атрибут `colspan`.
- 
- Атрибут `rowspan` аналогичен `colspan`, но служит для объединения строк.
- 
- ```html
- <table border="1">
- <tr>
-   <th colspan="2">Table header</th>
- </tr>
- <tr>
-   <td>Table cell 1</td><td>Table cell 2</td>
- </tr>
-   </table>
- ```
- 
- <table border="1">
- <tr>
-   <th colspan="2">Table header</th>
- </tr>
- <tr>
-   <td>Table cell 1</td><td>Table cell 2</td>
- </tr>
-  </table>
- 
- ### Части таблицы
- 
- Таблицы могут быть разделены на три части: хедер (head), основную (body), футер (foot). Их предназначение аналогично соответствующим частям веб-страницы. Для их создания используются теги `<thead>`, `<tbody>`, `<tfoot>`.
- 
- ```html
- <table border="1">
- 
-   <thead>
- <tr>
-   <th colspan="2">Caption 1</th>
-   <th>Caption 2</th>
- </tr>
-   </thead>
- 
-   <tbody>
- <tr>
-   <td>Row 1.1</td>
-   <td>Row 1.2</td>
-   <td>Row 1.3</td>
- </tr>
- <tr>
-   <td>Row 2.1</td>
-   <td colspan="2">Row 2.2</td>
- </tr>
- <tr>
-   <td rowspan="2">Row 3.1</td>
-   <td>Row 3.2</td>
-   <td>Row 3.3</td>
- </tr>
- <tr>
-   <td>Row 3.4</td>
-   <td>Row 3.5</td>
- </tr>
-   </tbody>
- 
-   <tfoot>
- <tr>
-   <td colspan="3">Footer</td>
- </tr>
-   </tfoot>
- 
- </table>
- ```
- 
- <table border="1">
-   <thead>
- <tr>
-   <th colspan="2">Caption 1</th>
-   <th>Caption 2</th>
- </tr>
-   </thead>
-   <tbody>
- <tr>
-   <td>Row 1.1</td>
-   <td>Row 1.2</td>
-   <td>Row 1.3</td>
- </tr>
- <tr>
-   <td>Row 2.1</td>
-   <td colspan="2">Row 2.2</td>
- </tr>
- <tr>
-   <td rowspan="2">Row 3.1</td>
-   <td>Row 3.2</td>
-   <td>Row 3.3</td>
- </tr>
- <tr>
-   <td>Row 3.4</td>
-   <td>Row 3.5</td>
- </tr>
-   </tbody>
-   <tfoot>
- <tr>
-   <td colspan="3">Footer</td>
- </tr>
-   </tfoot>
- </table>
- 
- ## Табличная верстка
- 
- Верстка веб-страницы очень важна для лучшего отображения вашего сайта. Красивая и удобная верстка занимает достаточно много времени.
- 
- В настоящее время все современные сайты используют CSS и JavaScript-фреймворки для создания динамической и адаптивной верстки, но все еще можно хорошо сверстать страницу используя таблицы или дивы (`<div>`).
- 
- Разберемся, как верстать страницу, используя только HTML и атрибуты.
- 
- ### 3 колонки
- 
- ```html
- <table width="100%" border="0">
-   <tr>
- <td style="background-color:#aaa" width="20%">
-   <b>Main Menu</b><br />
-   HTML<br>
-   PHP<br>
-   PERL...
- </td>
- <td style="background-color: #b5dcb3" height="200" width="60%">
- Technical and Managerial Tutorials
- </td>
- <td style="background-color:#aaa" width="20%">
-   <b>Right Menu</b><br>
-   HTML<br>
-   PHP<br>
-   PERL...
- </td>
-</tr>
- <table>
- ```
- 
- <table width="100%" border="0">
-   <tr>
- <td style="background-color:#aaa" width="20%">
-   <b>Main Menu</b><br />
-   HTML<br>
-   PHP<br>
-   PERL...
- </td>
- <td style="background-color: #b5dcb3" height="200" width="60%">
- Technical and Managerial Tutorials
- </td>
- <td style="background-color:#aaa" width="20%">
-   <b>Right Menu</b><br>
-   HTML<br>
-   PHP<br>
-   PERL...
- </td>
-</tr>
- </table>
- 
- ### 3 строки, 2 колонки
- 
- ```html
- <table width="100%" border="0">
-   <tr>
- <td colspan="2" style="background-color: #b5dcb3">
-   <h1>This is Web Page Main title</h1>
- </td>
-   </tr>
-   <tr>
- <td style="background-color: #aaa" width="50">
-   <b>Main Menu</b><br />
-   HTML<br />
-   PHP<br />
-   PERL...
- </td>
- <td style="background-color: #eee" width="100" height="200">
- Technical and Managerial Tutorials
- </td>
-   </tr>
-   <tr>
- <td colspan="2" style="background-color: #b5dcb3">
-   Copyright © 2007 Tutorialspoint.com
- </td>
-   </tr>
- </table>
- ```
- 
- <table width="100%" border="0">
-   <tr>
- <td colspan="2" style="background-color: #b5dcb3">
-   <h1>This is Web Page Main title</h1>
- </td>
-   </tr>
-   <tr>
- <td style="background-color: #aaa" width="50">
-   <b>Main Menu</b><br />
-   HTML<br />
-   PHP<br />
-   PERL...
- </td>
- <td style="background-color: #eee" width="100" height="200">
- Technical and Managerial Tutorials
- </td>
-   </tr>
-   <tr>
- <td colspan="2" style="background-color: #b5dcb3">
-   Copyright © 2007 Tutorialspoint.com
- </td>
-   </tr>
- </table>
- 
- ### Недостатки табличной верстки
- 
- - Таблицы увеличивают размер файла разметки
- 
- - Таблицы обычно мешают инкрементной отрисовке страницы, т.е. пройдет много времени, прежде чем пользователь что-либо увидит
- 
- - Таблицы мешают копированию текста в некоторых браузерах
- 
- - Табличная верстка занимает больше времени, чем верстка с помощью CSS
- 
- - Семантически некорректно использовать таблицы для описания внешнего вида, а не контента
- 
- - Таблицы усложняют пользование скринридерами
- 
- - Табличная верстка делает дизайн менее гибким и изменяемым
+<table border="1">
+  <tr>
+    <td>Table cell 1</td>
+    <td>Table cell 2</td>
+  </tr>
+</table>
 
-#### Изображения
+### Заголовки
 
-Для вставки изображений используется тег `<img>`. Источник изображения определяется атрибутом `src`, текст, показываемый при отсутствии изображения, определяется атрибутом `alt`.
+Многие таблицы имеют заголовки. В HTML для этого используется тег `<th>`.
 
-[example](http://jsbin.com/xivuli/edit?html,output)
+```html
+<table border="1">
+  <tr>
+    <th>Table header</th><th>Table header</th>
+  </tr>
+  <tr>
+    <td>Table cell 1</td><td>Table cell 2</td>
+  </tr>
+</table>
+```
 
-#### Формы
+<table border="1">
+  <tr>
+    <th>Table header</th><th>Table header</th>
+  </tr>
+  <tr>
+    <td>Table cell 1</td><td>Table cell 2</td>
+  </tr>
+</table>
 
-Формы предназначены для ввода пользовательской информации и ее сохранения. Подробнее в [лекции № 11](../topic11).
+### Colspan, rowspan
 
-#### Форматирование текста
+Для того, чтобы ячейка таблицы объединяла несколько столбцов, используется атрибут `colspan`.
 
-Большинство данных тегов больше не используются. Для этой цели обычно используется CSS.
+Атрибут `rowspan` аналогичен `colspan`, но служит для объединения строк.
 
-[example](http://jsbin.com/wubitu/edit?html,output)
+```html
+<table border="1">
+  <tr>
+    <th colspan="2">Table header</th>
+  </tr>
+  <tr>
+    <td>Table cell 1</td>
+    <td>Table cell 2</td>
+  </tr>
+</table>
+```
 
-[example](http://jsbin.com/wowaza/edit?html,output)
+<table border="1">
+  <tr>
+    <th colspan="2">Table header</th>
+  </tr>
+  <tr>
+    <td>Table cell 1</td>
+    <td>Table cell 2</td>
+  </tr>
+</table>
 
-#### Ссылки
+### Части таблицы
 
-Для создания ссылок в документе служит тег `<a>`. Атрибут `href` определяет адрес документа, на который следует перейти, `name` устанавливает имя якоря внутри документа.
+Таблицы могут быть разделены на три части: хедер (head), основную (body), футер (foot). Их предназначение аналогично соответствующим частям веб-страницы. Для их создания используются теги `<thead>`, `<tbody>`, `<tfoot>`.
 
-[example](http://jsbin.com/vuhume/edit?html,css,output)
+```html
+<table border="1">
+
+  <thead>
+    <tr>
+      <th colspan="2">Caption 1</th>
+      <th>Caption 2</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Row 1.1</td>
+      <td>Row 1.2</td>
+      <td>Row 1.3</td>
+    </tr>
+    <tr>
+      <td>Row 2.1</td>
+      <td colspan="2">Row 2.2</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Row 3.1</td>
+      <td>Row 3.2</td>
+      <td>Row 3.3</td>
+    </tr>
+    <tr>
+      <td>Row 3.4</td>
+      <td>Row 3.5</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td colspan="3">Footer</td>
+    </tr>
+  </tfoot>
+
+</table>
+```
+
+<table border="1">
+  <thead>
+    <tr>
+      <th colspan="2">Caption 1</th>
+      <th>Caption 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Row 1.1</td>
+      <td>Row 1.2</td>
+      <td>Row 1.3</td>
+    </tr>
+    <tr>
+      <td>Row 2.1</td>
+      <td colspan="2">Row 2.2</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Row 3.1</td>
+      <td>Row 3.2</td>
+      <td>Row 3.3</td>
+    </tr>
+    <tr>
+      <td>Row 3.4</td>
+      <td>Row 3.5</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="3">Footer</td>
+    </tr>
+  </tfoot>
+</table>
+
+### Табличная верстка
+
+Верстка веб-страницы очень важна для лучшего отображения вашего сайта. Красивая и удобная верстка занимает достаточно много времени.
+
+В настоящее время все современные сайты используют CSS и JavaScript-фреймворки для создания динамической и адаптивной верстки, но все еще можно хорошо сверстать страницу используя таблицы или дивы (`<div>`).
+
+Разберемся, как верстать страницу, используя только HTML и атрибуты.
+
+#### 3 колонки
+
+```html
+<table width="100%" border="0">
+  <tr>
+    <td style="background-color:#aaa" width="20%">
+      <b>Main Menu</b><br />
+      HTML<br>
+      PHP<br>
+      PERL...
+    </td>
+    <td style="background-color: #b5dcb3" height="200" width="60%">
+      Technical and Managerial Tutorials
+    </td>
+    <td style="background-color:#aaa" width="20%">
+      <b>Right Menu</b><br>
+      HTML<br>
+      PHP<br>
+      PERL...
+    </td>
+  </tr>
+<table>
+```
+
+<table width="100%" border="0">
+  <tr>
+    <td style="background-color:#aaa" width="20%">
+      <b>Main Menu</b><br />
+      HTML<br>
+      PHP<br>
+      PERL...
+    </td>
+    <td style="background-color: #b5dcb3" height="200" width="60%">
+      Technical and Managerial Tutorials
+    </td>
+    <td style="background-color:#aaa" width="20%">
+      <b>Right Menu</b><br>
+      HTML<br>
+      PHP<br>
+      PERL...
+    </td>
+  </tr>
+<table>
+
+#### 3 строки, 2 колонки
+
+```html
+<table width="100%" border="0">
+  <tr>
+    <td colspan="2" style="background-color: #b5dcb3">
+      <h1>This is Web Page Main title</h1>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color: #aaa" width="50">
+      <b>Main Menu</b><br />
+      HTML<br />
+      PHP<br />
+      PERL...
+    </td>
+    <td style="background-color: #eee" width="100" height="200">
+      Technical and Managerial Tutorials
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="background-color: #b5dcb3">
+      Copyright © 2007 Tutorialspoint.com
+    </td>
+  </tr>
+</table>
+```
+
+<table width="100%" border="0">
+  <tr>
+    <td colspan="2" style="background-color: #b5dcb3">
+      <h1>This is Web Page Main title</h1>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color: #aaa" width="50">
+      <b>Main Menu</b><br />
+      HTML<br />
+      PHP<br />
+      PERL...
+    </td>
+    <td style="background-color: #eee" width="100" height="200">
+      Technical and Managerial Tutorials
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="background-color: #b5dcb3">
+      Copyright © 2007 Tutorialspoint.com
+    </td>
+  </tr>
+</table>
+
+#### Недостатки табличной верстки
+
+- Таблицы увеличивают размер файла разметки
+
+- Таблицы обычно мешают инкрементной отрисовке страницы, т.е. пройдет много времени, прежде чем пользователь что-либо увидит
+
+- Таблицы мешают копированию текста в некоторых браузерах
+
+- Табличная верстка занимает больше времени, чем верстка с помощью CSS
+
+- Семантически некорректно использовать таблицы для описания внешнего вида, а не контента
+
+- Таблицы усложняют пользование скринридерами
+
+- Табличная верстка делает дизайн менее гибким и изменяемым
 
 ## Кодировка
 
