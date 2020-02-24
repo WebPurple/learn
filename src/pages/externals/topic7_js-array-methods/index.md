@@ -15,3 +15,5 @@ order: 7
 -   <gatsby-link to="/externals/topic7_js-array-methods/js-array-methods#вычисления-на-основе-существующего-массива">Вычисления на основе существующего массива</gatsby-link>
 -   <gatsby-link to="/externals/topic7_js-array-methods/js-array-methods#поиск-в-массиве">Поиск в массиве</gatsby-link>
 -   <gatsby-link to="/externals/topic7_js-array-methods/js-array-methods#сортировка">Сортировка</gatsby-link>
+
+## [Задания](https://github.com/WebPurple/external-courses/tree/master/src/ex6_js-array-methods)

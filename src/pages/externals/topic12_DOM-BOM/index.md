@@ -12,3 +12,5 @@ order: 12
 -   <gatsby-link to="/externals/topic12_DOM-BOM/dom#поиск-по-dom">Поиск по DOM</gatsby-link>
 -   <gatsby-link to="/externals/topic12_DOM-BOM/dom#innerHTML">innerHTML</gatsby-link>
 -   <gatsby-link to="/externals/topic12_DOM-BOM/dom#редактирование-дерева">Редактирование дерева</gatsby-link>
+
+## [Задания](https://github.com/WebPurple/external-courses/tree/master/src/ex12_js_dom)
