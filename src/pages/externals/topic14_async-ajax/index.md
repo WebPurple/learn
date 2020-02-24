@@ -7,9 +7,10 @@ order: 14
 
 ## Содержание
 
--   <gatsby-link to="/externals/topic14_async-ajax/events#события">Определение событий</gatsby-link>
--   <gatsby-link to="/externals/topic14_async-ajax/events#обработчики-событий">Обработчики событий</gatsby-link>
--   <gatsby-link to="/externals/topic14_async-ajax/events#объект-события">Объект события</gatsby-link>
--   <gatsby-link to="/externals/topic14_async-ajax/events#порядок-срабатывания-обработчиков">Порядок срабатывания обработчиков</gatsby-link>
+-   <gatsby-link to="/externals/topic14_async-ajax/async-ajax#ajax">Определение Async, AJAX</gatsby-link>
+-   <gatsby-link to="/externals/topic14_async-ajax/async-ajax#XMLHttpRequest">XMLHttpRequest</gatsby-link>
+-   <gatsby-link to="/externals/topic14_async-ajax/async-ajax#promise">Promise</gatsby-link>
+-   <gatsby-link to="/externals/topic14_async-ajax/async-ajax#fetch">Fetch</gatsby-link>
+-   <gatsby-link to="/externals/topic14_async-ajax/async-ajax#дополнительные-материалы">Дополнительно</gatsby-link>
 
 ## [Задания](https://github.com/WebPurple/external-courses/tree/master/src/ex16_js-async)
