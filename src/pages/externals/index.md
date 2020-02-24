@@ -46,10 +46,4 @@ isNavRoot: true
     
     16.[Контекст в JavaScript.](topic16_js-context)
     
-    17.[Компонентный подход, модули.](topic17_components-modules)
-    
-    18.[ES6 расширенные возможности.](topic18_es6-advanced-features)
-    
-    19.[Фреймворки.](topic19_frameworks)
-    
 ---
