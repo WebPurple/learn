@@ -39,7 +39,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-index-page-component-tsx-c7dd748825f818777fd9.js>; rel=preload; as=script
-/externals/
+/dictionaries/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -47,7 +47,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-section-page-component-tsx-4a66dd37dedfa78b1f5a.js>; rel=preload; as=script
-/dictionaries/
+/externals/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -79,7 +79,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/css/css_position/
+/dictionaries/css/css_grid/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -87,7 +87,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/css/css_grid/
+/dictionaries/css/css_position/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -119,14 +119,6 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/css/
-  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
-  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
-  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
-  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
-  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
-  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
-  Link: </component---src-templates-contents-page-component-tsx-33b1d7eb63f8c635fb5e.js>; rel=preload; as=script
 /dictionaries/css/css_text/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
@@ -135,6 +127,14 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
+/dictionaries/css/
+  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
+  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
+  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </component---src-templates-contents-page-component-tsx-33b1d7eb63f8c635fb5e.js>; rel=preload; as=script
 /dictionaries/html/10_html_comments/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
@@ -207,7 +207,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/html/3_html_elements/
+/dictionaries/html/2_html_basics/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -215,7 +215,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/html/2_html_basics/
+/dictionaries/html/3_html_elements/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -295,14 +295,6 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/instruments/
-  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
-  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
-  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
-  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
-  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
-  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
-  Link: </component---src-templates-contents-page-component-tsx-33b1d7eb63f8c635fb5e.js>; rel=preload; as=script
 /dictionaries/instruments/gulp/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
@@ -311,6 +303,14 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
+/dictionaries/instruments/
+  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
+  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
+  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </component---src-templates-contents-page-component-tsx-33b1d7eb63f8c635fb5e.js>; rel=preload; as=script
 /dictionaries/instruments/prettier/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
@@ -359,14 +359,6 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/javascript/05-arrays-and-methods/
-  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
-  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
-  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
-  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
-  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
-  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
-  Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
 /dictionaries/javascript/06-objects-and-properties/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
@@ -375,7 +367,15 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/javascript/11-logical-operators/
+/dictionaries/javascript/05-arrays-and-methods/
+  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
+  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
+  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
+/dictionaries/javascript/07-operators/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -391,7 +391,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/javascript/13-functions/
+/dictionaries/javascript/14-scope/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -399,7 +399,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/javascript/14-scope/
+/dictionaries/javascript/13-functions/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -431,7 +431,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-contents-page-component-tsx-33b1d7eb63f8c635fb5e.js>; rel=preload; as=script
-/externals/topic1/
+/externals/topic10_html-css-fundamentals-part2/css-fundamentals-part2/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -439,7 +439,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic1/js-basics-part1/
+/externals/topic10_html-css-fundamentals-part2/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -447,7 +447,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic10/html-advanced/
+/externals/topic11_html-css-advanced/css-advanced/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -455,7 +455,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic10/css-advanced/
+/externals/topic10_html-css-fundamentals-part2/html-fundamentals-part2/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -463,7 +463,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic10/
+/externals/topic11_html-css-advanced/html-advanced/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -471,7 +471,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic11/dom/
+/externals/topic11_html-css-advanced/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -479,7 +479,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic11/
+/externals/topic12_DOM-BOM/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -487,7 +487,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic12/
+/externals/topic12_DOM-BOM/dom/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -495,7 +495,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic13/
+/externals/topic13_events/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -503,7 +503,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic12/events/
+/externals/topic13_events/events/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -511,7 +511,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic13/js-context/
+/externals/topic14_async-ajax/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -519,7 +519,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic14/
+/externals/topic15_js-oop/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -527,7 +527,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic14/js-oop/
+/externals/topic14_async-ajax/async-ajax/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -535,7 +535,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic2/
+/externals/topic16_js-context/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -543,7 +543,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic3/
+/externals/topic15_js-oop/js-oop/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -551,7 +551,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic3/js-object-part1/
+/externals/topic1_js-basics-part1/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -559,7 +559,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic2/js-basics-part2/
+/externals/topic16_js-context/js-context/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -567,7 +567,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic4/
+/externals/topic2_js-basics-part2/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -575,7 +575,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic4/js-object-part2/
+/externals/topic1_js-basics-part1/js-basics-part1/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -583,7 +583,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic5/js-function/
+/externals/topic2_js-basics-part2/js-basics-part2/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -591,7 +591,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic6/
+/externals/topic3_git/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -599,7 +599,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic6/git/
+/externals/topic4_js-object-part1/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -607,7 +607,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic7/css-basics/
+/externals/topic3_git/git/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -615,7 +615,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic7/
+/externals/topic5_js-object-part2/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -623,7 +623,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic7/html-basics/
+/externals/topic4_js-object-part1/js-object-part1/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -631,7 +631,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic8/html-fundamentals-part1/
+/externals/topic5_js-object-part2/js-object-part2/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -639,7 +639,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic8/css-fundamentals-part1/
+/externals/topic6_js-function/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -647,7 +647,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic8/
+/externals/topic7_js-array-methods/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -655,7 +655,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic9/html-fundamentals-part2/
+/externals/topic6_js-function/js-function/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -663,7 +663,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic9/
+/externals/topic7_js-array-methods/js-array-methods/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -671,7 +671,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic9/css-fundamentals-part2/
+/externals/topic8_html-css-basic/css-basics/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -679,7 +679,39 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/javascript/07-operators/
+/externals/topic8_html-css-basic/
+  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
+  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
+  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
+/externals/topic9_html-css-fundamentals-part1/css-fundamentals-part1/
+  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
+  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
+  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
+/externals/topic8_html-css-basic/html-basics/
+  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
+  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
+  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
+/externals/topic9_html-css-fundamentals-part1/html-fundamentals-part1/
+  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
+  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
+  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
+/externals/topic9_html-css-fundamentals-part1/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -695,15 +727,7 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/javascript/10-switch/
-  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
-  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
-  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
-  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
-  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
-  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
-  Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/dictionaries/javascript/09-conditional-operators/
+/dictionaries/instruments/vscode/debug/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
@@ -727,14 +751,6 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-section-page-component-tsx-4a66dd37dedfa78b1f5a.js>; rel=preload; as=script
-/dictionaries/instruments/vscode/debug/
-  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
-  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
-  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
-  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
-  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
-  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
-  Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
 /dictionaries/instruments/vscode/intro/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
@@ -743,7 +759,23 @@
   Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
   Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
-/externals/topic5/
+/dictionaries/javascript/10-switch/
+  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
+  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
+  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
+/dictionaries/javascript/11-logical-operators/
+  Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
+  Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-50d1fd4f0934d9667f5f.js>; rel=preload; as=script
+  Link: </app-4a245b8c7d23cd88e3ff.js>; rel=preload; as=script
+  Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
+  Link: </component---src-templates-article-page-component-tsx-55d677f0cb2deeffc48b.js>; rel=preload; as=script
+/dictionaries/javascript/09-conditional-operators/
   Link: </webpack-runtime-22057ebd935073c68825.js>; rel=preload; as=script
   Link: </styles-78dc93697d7ae692e8d0.js>; rel=preload; as=script
   Link: </commons-3d4aac8c8b8f02ce904e.js>; rel=preload; as=script
