@@ -122,11 +122,11 @@ html{font-size:10px;} body{font-size:1.4rem;margin:0;padding:0;font-family:-appl
 <p>В JS нет требования, чтобы количество переданных аргументов совпадало с количеством параметров.</p>
 <p>Если передано больше аргументов, чем объявлено параметров, то лишние переданные значения никак не повлияют на выполнение функции.</p>
 <p>Если передано меньше аргументов, чем объявлено параметров, параметры для которых не было передано аргументов получат значение undefined. Пример:</p>
-<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">var</span> <span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">var</span> <span class="token function-variable function">log</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 
-<span class="token function">print</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 1 undefined</span></code></pre></div>
+<span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 1 undefined</span></code></pre></div>
 <p>У каждой функции есть read-only свойство length, которое определяется в момент создания функции и содержит число параметров функции.</p>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">var</span> <span class="token function-variable function">sum</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> a <span class="token operator">+</span> b <span class="token operator">+</span> c<span class="token punctuation">;</span>
@@ -266,21 +266,21 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <p><strong>На заметку</strong>: Стрелочные функции были введены в <a href="https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015" target="_blank" rel="nofollow noopener noreferrer"><strong>ES2015</strong></a>.</p>
 </blockquote>
 <p>С помощью <strong>Function Expression</strong> мы также можем объявить стрелочную функцию - <strong>Arrow Function</strong>.</p>
-<p>Однострочные стерлочные функции всегда возвращают результат вычисления выражения, которое стоит после стрелки <code class="language-text">=&gt;</code>.</p>
+<p>Однострочные стрелочные функции всегда возвращают результат вычисления выражения, которое стоит после стрелки <code class="language-text">=&gt;</code>.</p>
 <p>Если стрелочная функция не может быть описана одной строкой, в таком случае тело функции оборачивают фигурными скобками, подобно обычной функции.</p>
 <p>При таком раскладе, нужно явно обозначить, что именно вы собираетесь вернуть из функции с помощью ключевого слова <code class="language-text">return</code>. Примеры:</p>
-<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">logText</span> <span class="token operator">=</span> <span class="token parameter">text</span> <span class="token operator">=&gt;</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>text<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// если параметр один - круглые скобки не нужны</span>
+<div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">const</span> <span class="token function-variable function">logText</span> <span class="token operator">=</span> <span class="token parameter">text</span> <span class="token operator">=&gt;</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>text<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// если параметр один - фигурные скобки {} не нужны</span>
 
 <span class="token comment">/*
 если параметров не ожидается или же,
 наоборот, их больше одного,
-то круглые скобки обязательны
+то фигурные скобки обязательны
 */</span>
 <span class="token keyword">const</span> <span class="token function-variable function">sayHelloWorld</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#x27;Hello, world!&#x27;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">const</span> <span class="token function-variable function">sum</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> <span class="token function-variable function">fatBodyArrowFunction</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-  <span class="token comment">// тут производятся сложные вычисления на несколько строк кода =)</span>
+  <span class="token comment">// тут производятся сложные вычисления на несколько строк кода.</span>
   <span class="token comment">// если нужно что-то вернуть из такой функции - используйте return</span>
   <span class="token comment">// иначе функция будет вести себя как процедура</span>
   <span class="token keyword">const</span> result <span class="token operator">=</span> a <span class="token operator">+</span> b <span class="token operator">+</span> c<span class="token punctuation">;</span>
