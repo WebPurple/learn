@@ -12,9 +12,9 @@ order: 8
 ### <gatsby-link to="/externals/topic8_html-css-basic/html-basics">HTML</gatsby-link>
 
 -   <gatsby-link to="/externals/topic8_html-css-basic/html-basics#структура-страницы">Структура страницы</gatsby-link>
--   <gatsby-link to="/externals/topic8_html-css-basic/html-basics#html-теги">HTML-теги</gatsby-link>
 -   <gatsby-link to="/externals/topic8_html-css-basic/html-basics#кодировка">Кодировка</gatsby-link>
--   <gatsby-link to="/externals/topic8_html-css-basic/html-basics#dom">DOM</gatsby-link>
+-   <gatsby-link to="/externals/topic8_html-css-basic/html-basics#html-теги">HTML-теги</gatsby-link>
+-   <gatsby-link to="/externals/topic8_html-css-basic/html-basics#html5">HTML5</gatsby-link>
 -   <gatsby-link to="/externals/topic8_html-css-basic/html-basics#валидация">Валидация</gatsby-link>
 -   <gatsby-link to="/externals/topic8_html-css-basic/html-basics#полезные-ссылки">Полезные ссылки</gatsby-link>
 
