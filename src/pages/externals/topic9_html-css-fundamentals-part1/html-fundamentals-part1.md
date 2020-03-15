@@ -8,7 +8,7 @@ tags: html, css, basics, fundamentals
 
 # Основы HTML. Часть 1
 
-## Поток документа
+## Поток документа ![MDN](https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%82%D0%BE%D0%BA)
 
 Под "потоком документа" (flow) понимают порядок отображения элементов на странице.
 
