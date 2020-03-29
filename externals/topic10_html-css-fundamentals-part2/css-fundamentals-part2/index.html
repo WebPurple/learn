@@ -147,10 +147,13 @@ html{font-size:10px;} body{font-size:1.4rem;margin:0;padding:0;font-family:-appl
 <li>на CSS<br/>
 Основные фигуры из «CSS Shapes Module» обеспечивают удобный способ использования clip-path. Доступны разные фигуры: polygon, circle, ellipse и inset; inset предназначен для прямоугольников.</li>
 <li>на SVG<br/>
-В качестве альтернативы можно создать фигуру с помощью SVG, а затем обрезать элемент по этой фигуре с помощью синтаксиса URL. Есть два способа сделать это:<br/></li>
+В качестве альтернативы можно создать фигуру с помощью SVG, а затем обрезать элемент по этой фигуре с помощью синтаксиса URL. </li>
+</ol>
+<p>Есть два способа сделать это:</p>
+<ul>
 <li>через указатель на встроенный SVG (то есть разметка SVG существует в самой странице);</li>
 <li>со ссылкой на внешний документ SVG.</li>
-</ol>
+</ul>
 <p>Свойство clip-path принимает значения базовых векторных форм (circle, ellipse, inset, polygon) или svg-элементы clippingPath. <br/>
 Существует старое свойство <code class="language-text">clip</code> из CSS 2.1, которое довольно ограниченно, хотя бы потому, что оно поддерживает только прямоугольные фигуры. </p>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path" target="_blank" rel="nofollow noopener noreferrer">Это свойство</a> определяет область элемента, которая должна быть показана. Вырезаемая область определяется или URL, относящимся к SVG, или формой, например, <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle" target="_blank" rel="nofollow noopener noreferrer">circle()</a>.</p>
