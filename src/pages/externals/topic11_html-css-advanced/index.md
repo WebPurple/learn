@@ -10,20 +10,14 @@ order: 11
 ## Содержание
 
 ### <gatsby-link to="/externals/topic11_html-css-advanced/html-advanced">HTML</gatsby-link>
-
--   <gatsby-link to="/externals/topic11_html-css-advanced/html-advanced#form">Form</gatsby-link>
--   <gatsby-link to="/externals/topic11_html-css-advanced/html-advanced#атрибуты-формы">Атрибуты формы</gatsby-link>
--   <gatsby-link to="/externals/topic11_html-css-advanced/html-advanced#элементы-форм">Элементы форм</gatsby-link>
--   <gatsby-link to="/externals/topic11_html-css-advanced/html-advanced#атрибуты-инпутов">Атрибуты инпутов</gatsby-link>
--   <gatsby-link to="/externals/topic11_html-css-advanced/html-advanced#атрибуты-введенные-в-html5">Атрибуты, введенные в HTML5</gatsby-link>
+-   <gatsby-link to="/externals/topic11_html-css-advanced/html-advanced#svg">Формат SVG</gatsby-link>
+-   <gatsby-link to="/externals/topic11_html-css-advanced/html-advanced#способы-вставки-svg">Способы вставки SVG</gatsby-link>
 
 ### <gatsby-link to="/externals/topic11_html-css-advanced/css-advanced">CSS</gatsby-link>
 
--   <gatsby-link to="/externals/topic11_html-css-advanced/css-advanced#сlip-path">Clip-path</gatsby-link>
--   <gatsby-link to="/externals/topic11_html-css-advanced/css-advanced#mask">Mask</gatsby-link>
--   <gatsby-link to="/externals/topic11_html-css-advanced/css-advanced#function">Function</gatsby-link>
--   <gatsby-link to="/externals/topic11_html-css-advanced/css-advanced#filter">Filter</gatsby-link>
--   <gatsby-link to="/externals/topic11_html-css-advanced/css-advanced#transform">Transform</gatsby-link>
--   <gatsby-link to="/externals/topic11_html-css-advanced/css-advanced#анимации">Анимации</gatsby-link>
+-   <gatsby-link to="/externals/topic11_html-css-advanced/css-advanced#css-function">CSS Function</gatsby-link>
+-   <gatsby-link to="/externals/topic11_html-css-advanced/css-advanced#анимации-и-переходы">Анимации и переходы</gatsby-link>
+-   <gatsby-link to="/externals/topic11_html-css-advanced/css-advanced#css-переходы">CSS - переходы</gatsby-link>
+-   <gatsby-link to="/externals/topic11_html-css-advanced/css-advanced#css-анимации">CSS - анимации</gatsby-link>
 
 ## [Задания](https://github.com/WebPurple/external-courses/tree/master/src/ex11_html-css-advanced/README.md)
