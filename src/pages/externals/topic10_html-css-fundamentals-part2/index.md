@@ -14,7 +14,7 @@ order: 10
 -   <gatsby-link to="/externals/topic10_html-css-fundamentals-part2/html-fundamentals-part2#iframe">iframe</gatsby-link>
 -   <gatsby-link to="/externals/topic10_html-css-fundamentals-part2/html-fundamentals-part2#form">Форма</gatsby-link>
 -   <gatsby-link to="/externals/topic10_html-css-fundamentals-part2/html-fundamentals-part2#атрибуты-формы">Атрибуты формы</gatsby-link>
--   <gatsby-link to="/externals/topic10_html-css-fundamentals-part2/html-fundamentals-part2#краткое-описание-обязательных-пунктов">Краткое описание обязательных пунктов</gatsby-link>
+-   <gatsby-link to="/externals/topic10_html-css-fundamentals-part2/html-fundamentals-part2#чек-лист-верстальщика">Краткое описание обязательных пунктов проверки верстки</gatsby-link>
 
 ### <gatsby-link to="/externals/topic10_html-css-fundamentals-part2/css-fundamentals-part2">CSS</gatsby-link>
 
@@ -23,7 +23,6 @@ order: 10
 -   <gatsby-link to="/externals/topic10_html-css-fundamentals-part2/css-fundamentals-part2#скрытие-элемента">Скрытие элемента</gatsby-link>
 -   <gatsby-link to="/externals/topic10_html-css-fundamentals-part2/css-fundamentals-part2#clip-path">Clip-path</gatsby-link>
 -   <gatsby-link to="/externals/topic10_html-css-fundamentals-part2/css-fundamentals-part2#mask">Mask</gatsby-link>
--   <gatsby-link to="/externals/topic10_html-css-fundamentals-part2/css-fundamentals-part2#псевдоклассы-псевдоэлементы">Псевдоклассы, псевдоэлементы</gatsby-link>
 -   <gatsby-link to="/externals/topic10_html-css-fundamentals-part2/css-fundamentals-part2#rules">@-rules</gatsby-link>
 
 ## [Задания](https://github.com/WebPurple/external-courses/tree/master/src/ex10_html-css-fundamentals-part2/README.md)
