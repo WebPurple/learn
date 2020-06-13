@@ -1,10 +1,10 @@
-import React, { SVGProps, FC } from 'react';
+import React, { SVGProps } from 'react';
 
 interface Props extends SVGProps<SVGSVGElement> {
   color?: string;
 }
 
-const LogoIcon: FC<Props> = ({ color, ...svgProps }) => (
+const LogoIcon: React.FC<Props> = ({ color, ...svgProps }) => (
   <svg stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" viewBox="0 0 59 53" {...svgProps}>
     {!color && (
       <defs>
@@ -30,7 +30,7 @@ const LogoIcon: FC<Props> = ({ color, ...svgProps }) => (
     <path
       className="logo-bottom-right"
       fill={color || 'url(#linearGradient-2)'}
-      d="M1 44 L29.5 26.5 L59 44 L44 53 L29.5 44 L15 53z"
+      d="M0 44 L29.5 26.5 L59 44 L44 53 L29.5 44 L15 53z"
     />
     <path
       className="logo-bottom-left"
