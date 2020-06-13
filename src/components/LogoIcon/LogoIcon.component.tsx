@@ -32,13 +32,15 @@ const LogoIcon: React.FC<Props> = ({ color, ...svgProps }) => (
       fill={color || 'url(#linearGradient-2)'}
       d="M0 44 L29.5 26.5 L59 44 L44 53 L29.5 44 L15 53z"
     />
-    <path
-      className="logo-bottom-left"
-      fill={color || 'url(#linearGradient-3)'}
-      opacity="0.4"
-      style={{ mixBlendMode: 'multiply' }}
-      d="M0 44 L29.5 26.5 L15 53z"
-    />
+    {!color && (
+      <path
+        className="logo-bottom-left"
+        fill="url(#linearGradient-3)"
+        opacity="0.4"
+        style={{ mixBlendMode: 'multiply' }}
+        d="M0 44 L29.5 26.5 L15 53z"
+      />
+    )}
     <path className="logo-left" fill={color || 'url(#linearGradient-4)'} d="M0 9 L15 0 v53 L0 44z" />
   </svg>
 );
