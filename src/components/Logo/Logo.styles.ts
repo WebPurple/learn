@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 import { media, colorLipstick } from '../../utils/css-utils';
+import LogoIcon from '../LogoIcon';
 
 export const StyledLink = styled(Link)`
   display: flex;
@@ -27,7 +28,7 @@ export const StyledTitle = styled.span`
   `}
 `;
 
-export const StyledIcon = styled.svg`
+export const StyledLogoIcon = styled(LogoIcon)`
   width: 3.5rem;
   height: 3.5rem;
   margin-right: 1rem;

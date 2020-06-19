@@ -1,10 +1,9 @@
 import React from 'react';
-import LogoLoader from '../../components/LogoLoader';
-import { StyledMain } from './styles';
+import { StyledMain, StyledLoader } from './styles';
 
 const IndexPageTemplate: React.FC = () => (
   <StyledMain>
-    <LogoLoader />
+    <StyledLoader />
   </StyledMain>
 );
 
